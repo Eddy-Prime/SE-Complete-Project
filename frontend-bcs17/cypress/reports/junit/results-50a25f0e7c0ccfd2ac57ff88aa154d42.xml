@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="103.698" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2025-05-11T19:28:02" tests="0" file="cypress/e2e/features/assignment_grading.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Grading and Feedback" timestamp="2025-05-11T19:28:02" tests="6" time="103.665" failures="6">
+    <testcase name="Assignment Grading and Feedback Viewing all submissions for an assignment" time="0.000" classname="Viewing all submissions for an assignment">
+      <failure message="Timed out retrying after 6000ms: Expected to find content: &apos;Software Engineering&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: Expected to find content: 'Software Engineering' but never did.
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:11422:35)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:9255:48)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Grading a submission with full score" time="0.000" classname="Grading a submission with full score">
+      <failure message="Timed out retrying after 6000ms: Expected to find content: &apos;Software Engineering&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: Expected to find content: 'Software Engineering' but never did.
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:11422:35)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:9255:48)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Grading a submission with partial score" time="0.000" classname="Grading a submission with partial score">
+      <failure message="Timed out retrying after 6000ms: Expected to find content: &apos;Software Engineering&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: Expected to find content: 'Software Engineering' but never did.
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:11422:35)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:9255:48)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Grading using criteria breakdown" time="0.000" classname="Grading using criteria breakdown">
+      <failure message="Timed out retrying after 6000ms: Expected to find content: &apos;Software Engineering&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: Expected to find content: 'Software Engineering' but never did.
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:11422:35)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:9255:48)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Updating a grade after review" time="0.000" classname="Updating a grade after review">
+      <failure message="Timed out retrying after 6000ms: Expected to find content: &apos;Software Engineering&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: Expected to find content: 'Software Engineering' but never did.
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:11422:35)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:9255:48)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Providing feedback without a grade" time="0.000" classname="Providing feedback without a grade">
+      <failure message="Timed out retrying after 6000ms: Expected to find content: &apos;Software Engineering&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: Expected to find content: 'Software Engineering' but never did.
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:11422:35)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:9255:48)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10153:60)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

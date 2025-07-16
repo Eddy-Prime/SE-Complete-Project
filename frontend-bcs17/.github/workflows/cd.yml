@@ -1,0 +1,64 @@
+
+name: CD Pipeline
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["CI Pipeline"]
+    types:
+      - completed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: 'Production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    
+    steps:
+      - name: Download package from GitHub Packages
+        run: |
+          echo "Setting up GitHub npm registry..."
+          npm config set registry https://npm.pkg.github.com/
+          npm config set //npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}
+
+          echo "Fetching package..."
+          npm pack @ucllsoftwareengineering2425/frontend-bcs17
+
+          echo "Moving package to download folder..."
+          mkdir -p download
+          mv *.tgz download/
+
+          echo "Listing downloaded package..."
+          ls -lh download/
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: Extract package for deployment
+        run: |
+          cd download
+
+          echo "Finding the downloaded package..."
+          PKG_FILE=$(ls | grep ".tgz")
+          echo "Package file: $PKG_FILE"
+
+          echo "Extracting .tgz package..."
+          tar -xvzf $PKG_FILE
+          
+          echo "Checking extracted contents..."
+          ls -lh package
+
+          echo "Extracting release.zip..."
+          unzip package/release.zip -d extracted_release
+          
+          echo "Listing extracted release files..."
+          ls -lh extracted_release
+
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'bcs17-frontend'
+          slot-name: 'Production'
+          package: 'download/extracted_release'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_109E390DE3DE439C8CAD3E07ABD8D707 }}

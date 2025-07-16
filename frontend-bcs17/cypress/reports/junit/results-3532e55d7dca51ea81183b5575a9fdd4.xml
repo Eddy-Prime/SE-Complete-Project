@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.422" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-05-11T14:55:29" tests="0" file="cypress/e2e/features/assignment_creation.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Creation" timestamp="2025-05-11T14:55:29" tests="5" time="6.391" failures="1">
+    <testcase name="Assignment Creation Successfully creating an assignment with required fields" time="1.318" classname="Successfully creating an assignment with required fields">
+    </testcase>
+    <testcase name="Assignment Creation Attempting to create an assignment without required fields" time="1.383" classname="Attempting to create an assignment without required fields">
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with file attachments" time="0.000" classname="Creating an assignment with file attachments">
+      <failure message="expected false to be true" type="AssertionError"><![CDATA[AssertionError: expected false to be true
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10719:55)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9255:48)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10153:60)
+
+      + expected - actual:  failed to generate Mocha diff
+]]></failure>
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with a past due date" time="1.039" classname="Creating an assignment with a past due date">
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with a very long description" time="1.205" classname="Creating an assignment with a very long description">
+    </testcase>
+  </testsuite>
+</testsuites>

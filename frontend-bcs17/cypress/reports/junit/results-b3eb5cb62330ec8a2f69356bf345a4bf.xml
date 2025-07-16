@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="63.928" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2025-05-09T11:34:08" tests="0" file="cypress/e2e/features/schedule_enrollment.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Schedule Enrollment" timestamp="2025-05-09T11:34:13" tests="4" time="59.059" failures="4">
+    <testcase name="Schedule Enrollment Successfully enroll in a schedule" time="0.000" classname="Successfully enroll in a schedule">
+      <failure message="Multiple matching step definitions for: I am logged in as a student
+ I am logged in as a student
+ I am logged in as a student" type="Error"><![CDATA[Error: Multiple matching step definitions for: I am logged in as a student
+ I am logged in as a student
+ I am logged in as a student
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Schedule Enrollment View enrolled schedules" time="0.000" classname="View enrolled schedules">
+      <failure message="Multiple matching step definitions for: I am logged in as a student
+ I am logged in as a student
+ I am logged in as a student" type="Error"><![CDATA[Error: Multiple matching step definitions for: I am logged in as a student
+ I am logged in as a student
+ I am logged in as a student
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Schedule Enrollment Attempt to enroll in a full schedule" time="0.000" classname="Attempt to enroll in a full schedule">
+      <failure message="Multiple matching step definitions for: I am logged in as a student
+ I am logged in as a student
+ I am logged in as a student" type="Error"><![CDATA[Error: Multiple matching step definitions for: I am logged in as a student
+ I am logged in as a student
+ I am logged in as a student
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Schedule Enrollment Attempt to enroll in a schedule that conflicts with another enrolled schedule" time="0.000" classname="Attempt to enroll in a schedule that conflicts with another enrolled schedule">
+      <failure message="Multiple matching step definitions for: I am logged in as a student
+ I am logged in as a student
+ I am logged in as a student" type="Error"><![CDATA[Error: Multiple matching step definitions for: I am logged in as a student
+ I am logged in as a student
+ I am logged in as a student
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10153:60)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

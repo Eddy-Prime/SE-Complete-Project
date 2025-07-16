@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.890" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-04-24T11:08:31" tests="0" file="cypress/e2e/features/assignment_viewing.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Viewing" timestamp="2025-04-24T11:08:31" tests="6" time="5.859" failures="1">
+    <testcase name="Assignment Viewing Viewing all assignments across enrolled schedules" time="1.127" classname="Viewing all assignments across enrolled schedules">
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments organized by schedule" time="0.966" classname="Viewing assignments organized by schedule">
+    </testcase>
+    <testcase name="Assignment Viewing Sorting assignments by due date" time="0.875" classname="Sorting assignments by due date">
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments by completion status" time="0.857" classname="Viewing assignments by completion status">
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignment details" time="0.851" classname="Viewing assignment details">
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments with approaching deadlines" time="0.000" classname="Viewing assignments with approaching deadlines">
+      <failure message="
+Step implementation missing for &quot;Student Sarah selects the &quot;Approaching Deadlines&quot; filter&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching &quot;Student Sarah selects the &quot;Approaching Deadlines&quot; filter&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Student Sarah selects the {string} filter&quot;, function (string) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Student Sarah selects the "Approaching Deadlines" filter".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching "Student Sarah selects the "Approaching Deadlines" filter".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Student Sarah selects the {string} filter", function (string) {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10165:27)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

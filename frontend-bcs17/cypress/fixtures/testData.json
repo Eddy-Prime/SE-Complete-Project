@@ -1,0 +1,77 @@
+{
+  "users": {
+    "professor": {
+      "username": "professor.thompson",
+      "password": "password123",
+      "name": "Professor Thompson",
+      "role": "PROFESSOR"
+    },
+    "professor2": {
+      "username": "professor.wilson",
+      "password": "password123",
+      "name": "Professor Wilson",
+      "role": "PROFESSOR"
+    },
+    "professor3": {
+      "username": "professor.davis",
+      "password": "password123",
+      "name": "Professor Davis",
+      "role": "PROFESSOR" 
+    },
+    "student": {
+      "username": "student.alex",
+      "password": "password123",
+      "name": "Alex Johnson",
+      "role": "STUDENT"
+    },
+    "student2": {
+      "username": "student.emma",
+      "password": "password123",
+      "name": "Emma Williams",
+      "role": "STUDENT"
+    }
+  },
+  "assignments": {
+    "softwareEngineering": {
+      "title": "Final Project",
+      "description": "Create a full-stack web application",
+      "dueDate": "05/15/2025",
+      "schedule": "Software Engineering",
+      "estimatedTime": "10 hours",
+      "gradingCriteria": "Code quality: 30%, Functionality: 40%, Documentation: 30%"
+    },
+    "databaseDesign": {
+      "title": "Database Assignment",
+      "description": "Design and implement a database schema",
+      "dueDate": "05/10/2025",
+      "schedule": "Database Design",
+      "attachments": ["schema_example.sql", "requirements.pdf"]
+    },
+    "researchMethods": {
+      "title": "Research Project",
+      "description": "Conduct research and write a paper on a topic of your choice",
+      "dueDate": "06/30/2025",
+      "schedule": "Research Methods"
+    }
+  },
+  "submissions": {
+    "finalProject": {
+      "student": "Alex Johnson",
+      "assignment": "Final Project",
+      "comments": "I've implemented all requirements and added unit tests.",
+      "files": ["project-submission.zip", "documentation.pdf"],
+      "submissionDate": "05/12/2025"
+    },
+    "databaseAssignment": {
+      "student": "Emma Williams",
+      "assignment": "Database Assignment",
+      "comments": "Here is my database schema with normalized tables.",
+      "files": ["schema.sql", "erd-diagram.png", "queries.txt"],
+      "submissionDate": "05/08/2025"
+    }
+  },
+  "files": {
+    "uploadPath": "cypress/fixtures/upload",
+    "testFiles": ["document1.pdf", "code.zip", "presentation.pptx", "schema_example.sql", "requirements.pdf"]
+  }
+}

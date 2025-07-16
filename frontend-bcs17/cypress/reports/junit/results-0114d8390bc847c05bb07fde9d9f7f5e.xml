@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.244" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2025-05-03T13:45:21" tests="0" file="cypress/e2e/features/assignment_submission.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Submission" timestamp="2025-05-03T13:45:21" tests="6" time="7.215" failures="6">
+    <testcase name="Assignment Submission Successfully submitting an assignment before deadline" time="0.000" classname="Successfully submitting an assignment before deadline">
+      <failure message="
+Step implementation missing for &quot;Student Sarah is enrolled in the &quot;Software Engineering&quot; schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_submission/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_submission.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching &quot;Student Sarah is enrolled in the &quot;Software Engineering&quot; schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Student Sarah is enrolled in the {string} schedule&quot;, function (string) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Student Sarah is enrolled in the "Software Engineering" schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_submission/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_submission.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching "Student Sarah is enrolled in the "Software Engineering" schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Student Sarah is enrolled in the {string} schedule", function (string) {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Submission Saving a draft submission" time="0.000" classname="Saving a draft submission">
+      <failure message="
+Step implementation missing for &quot;Student Sarah is enrolled in the &quot;Software Engineering&quot; schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_submission/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_submission.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching &quot;Student Sarah is enrolled in the &quot;Software Engineering&quot; schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Student Sarah is enrolled in the {string} schedule&quot;, function (string) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Student Sarah is enrolled in the "Software Engineering" schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_submission/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_submission.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching "Student Sarah is enrolled in the "Software Engineering" schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Student Sarah is enrolled in the {string} schedule", function (string) {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Submission Editing and finalizing a draft submission" time="0.000" classname="Editing and finalizing a draft submission">
+      <failure message="
+Step implementation missing for &quot;Student Sarah is enrolled in the &quot;Software Engineering&quot; schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_submission/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_submission.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching &quot;Student Sarah is enrolled in the &quot;Software Engineering&quot; schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Student Sarah is enrolled in the {string} schedule&quot;, function (string) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Student Sarah is enrolled in the "Software Engineering" schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_submission/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_submission.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching "Student Sarah is enrolled in the "Software Engineering" schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Student Sarah is enrolled in the {string} schedule", function (string) {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Submission Attempting to submit after the deadline" time="0.000" classname="Attempting to submit after the deadline">
+      <failure message="
+Step implementation missing for &quot;Student Sarah is enrolled in the &quot;Software Engineering&quot; schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_submission/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_submission.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching &quot;Student Sarah is enrolled in the &quot;Software Engineering&quot; schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Student Sarah is enrolled in the {string} schedule&quot;, function (string) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Student Sarah is enrolled in the "Software Engineering" schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_submission/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_submission.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching "Student Sarah is enrolled in the "Software Engineering" schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Student Sarah is enrolled in the {string} schedule", function (string) {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Submission Viewing submission history" time="0.000" classname="Viewing submission history">
+      <failure message="
+Step implementation missing for &quot;Student Sarah is enrolled in the &quot;Software Engineering&quot; schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_submission/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_submission.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching &quot;Student Sarah is enrolled in the &quot;Software Engineering&quot; schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Student Sarah is enrolled in the {string} schedule&quot;, function (string) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Student Sarah is enrolled in the "Software Engineering" schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_submission/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_submission.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching "Student Sarah is enrolled in the "Software Engineering" schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Student Sarah is enrolled in the {string} schedule", function (string) {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Submission Submitting an assignment with large file attachments" time="0.000" classname="Submitting an assignment with large file attachments">
+      <failure message="
+Step implementation missing for &quot;Student Sarah is enrolled in the &quot;Software Engineering&quot; schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_submission/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_submission.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching &quot;Student Sarah is enrolled in the &quot;Software Engineering&quot; schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Student Sarah is enrolled in the {string} schedule&quot;, function (string) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Student Sarah is enrolled in the "Software Engineering" schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_submission/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_submission.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching "Student Sarah is enrolled in the "Software Engineering" schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Student Sarah is enrolled in the {string} schedule", function (string) {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10165:27)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

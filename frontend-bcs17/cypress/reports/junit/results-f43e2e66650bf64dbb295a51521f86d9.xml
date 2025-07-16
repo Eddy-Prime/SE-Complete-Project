@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="32.884" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2025-05-09T11:19:25" tests="0" file="cypress/e2e/features/schedule_enrollment.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Schedule Enrollment" timestamp="2025-05-09T11:19:30" tests="4" time="28.004" failures="4">
+    <testcase name="Schedule Enrollment Successfully enroll in a schedule" time="0.000" classname="Successfully enroll in a schedule">
+      <failure message="
+Step implementation missing for &quot;I click the enroll button for a schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/schedule_enrollment/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/schedule_enrollment.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;I click the enroll button for a schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;I click the enroll button for a schedule&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "I click the enroll button for a schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/schedule_enrollment/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/schedule_enrollment.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "I click the enroll button for a schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("I click the enroll button for a schedule", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Schedule Enrollment View enrolled schedules" time="0.000" classname="View enrolled schedules">
+      <failure message="
+Step implementation missing for &quot;I have enrolled in a schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/schedule_enrollment/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/schedule_enrollment.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;I have enrolled in a schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;I have enrolled in a schedule&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "I have enrolled in a schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/schedule_enrollment/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/schedule_enrollment.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "I have enrolled in a schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("I have enrolled in a schedule", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Schedule Enrollment Attempt to enroll in a full schedule" time="0.000" classname="Attempt to enroll in a full schedule">
+      <failure message="
+Step implementation missing for &quot;the schedule has reached its maximum capacity&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/schedule_enrollment/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/schedule_enrollment.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;the schedule has reached its maximum capacity&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;the schedule has reached its maximum capacity&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "the schedule has reached its maximum capacity".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/schedule_enrollment/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/schedule_enrollment.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "the schedule has reached its maximum capacity".
+
+You can implement it using the suggestion(s) below.
+
+  Given("the schedule has reached its maximum capacity", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Schedule Enrollment Attempt to enroll in a schedule that conflicts with another enrolled schedule" time="0.000" classname="Attempt to enroll in a schedule that conflicts with another enrolled schedule">
+      <failure message="
+Step implementation missing for &quot;I am already enrolled in a schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/schedule_enrollment/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/schedule_enrollment.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;I am already enrolled in a schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;I am already enrolled in a schedule&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "I am already enrolled in a schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/schedule_enrollment/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/schedule_enrollment.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "I am already enrolled in a schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("I am already enrolled in a schedule", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10155:27)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+{
+  "specName": "assignment_submission.feature",
+  "testName": "Submitting an assignment with large file attachments",
+  "testState": "failed",
+  "testError": "Multiple matching step definitions for: Student Sarah is logged in\n Student Sarah is logged in\n Student Sarah is logged in",
+  "testStack": "Error: Multiple matching step definitions for: Student Sarah is logged in\n Student Sarah is logged in\n Student Sarah is logged in\n    at Registry.resolveStepDefintion (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9235:19)\n    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9250:39)\n    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10156:41)\n    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9860:36)\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10153:60)",
+  "timestamp": "2025-05-03T13-53-04.906Z"
+}

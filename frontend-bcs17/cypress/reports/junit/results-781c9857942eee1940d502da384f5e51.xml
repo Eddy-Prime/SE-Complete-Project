@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="67.734" tests="4" failures="3">
+  <testsuite name="Root Suite" timestamp="2025-05-11T19:03:50" tests="0" file="cypress/e2e/features/schedule_enrollment.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Schedule Enrollment" timestamp="2025-05-11T19:03:50" tests="4" time="67.696" failures="3">
+    <testcase name="Schedule Enrollment Successfully enroll in a schedule" time="0.000" classname="Successfully enroll in a schedule">
+      <failure message="Timed out retrying after 6000ms: expected false to be true" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: expected false to be true
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10760:70)
+
+      + expected - actual:  failed to generate Mocha diff
+]]></failure>
+    </testcase>
+    <testcase name="Schedule Enrollment View enrolled schedules" time="6.745" classname="View enrolled schedules">
+    </testcase>
+    <testcase name="Schedule Enrollment Attempt to enroll in a full schedule" time="0.000" classname="Attempt to enroll in a full schedule">
+      <failure message="Timed out retrying after 6000ms: expected &apos;&lt;p#__next-route-announcer__&gt;&apos; to contain text &apos;capacity&apos;, but the text was &apos;&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: expected '<p#__next-route-announcer__>' to contain text 'capacity', but the text was ''
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10814:38)
+
+      + expected - actual
+
+      +'capacity'
+      ]]></failure>
+    </testcase>
+    <testcase name="Schedule Enrollment Attempt to enroll in a schedule that conflicts with another enrolled schedule" time="0.000" classname="Attempt to enroll in a schedule that conflicts with another enrolled schedule">
+      <failure message="Timed out retrying after 6000ms: expected &apos;&lt;p#__next-route-announcer__&gt;&apos; to contain text &apos;conflict&apos;, but the text was &apos;&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: expected '<p#__next-route-announcer__>' to contain text 'conflict', but the text was ''
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10879:38)
+
+      + expected - actual
+
+      +'conflict'
+      ]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

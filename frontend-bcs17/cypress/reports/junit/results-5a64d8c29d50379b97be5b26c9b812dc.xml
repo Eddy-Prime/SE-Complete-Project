@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="70.776" tests="5" failures="5">
+  <testsuite name="Root Suite" timestamp="2025-05-11T21:11:51" tests="0" file="cypress/e2e/features/assignment_editing.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Editing and Updating" timestamp="2025-05-11T21:11:51" tests="5" time="70.738" failures="5">
+    <testcase name="Assignment Editing and Updating Editing an unpublished assignment" time="0.000" classname="Editing an unpublished assignment">
+      <failure message="Timed out retrying after 6000ms: Expected to find element: `[data-testid=&quot;assignment-title-input&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: Expected to find element: `[data-testid="assignment-title-input"]`, but never found it.
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10808:12)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9255:48)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Editing and Updating Making limited changes to a published assignment" time="0.000" classname="Making limited changes to a published assignment">
+      <failure message="Timed out retrying after 6000ms: Expected to find element: `[data-testid=&quot;assignment-description-input&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: Expected to find element: `[data-testid="assignment-description-input"]`, but never found it.
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10813:12)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9255:48)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Editing and Updating Attempting to reduce deadline of an assignment with submissions" time="0.000" classname="Attempting to reduce deadline of an assignment with submissions">
+      <failure message="Multiple matching step definitions for: Professor Thompson changes the due date to &quot;04/30/2025&quot;
+ Professor Thompson changes the due date to {string}
+ Professor Thompson changes the due date to {string}" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson changes the due date to "04/30/2025"
+ Professor Thompson changes the due date to {string}
+ Professor Thompson changes the due date to {string}
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Editing and Updating Adding new file attachments to a published assignment" time="0.000" classname="Adding new file attachments to a published assignment">
+      <failure message="Multiple matching step definitions for: Professor Thompson clicks the &quot;Save Changes&quot; button
+ Professor Thompson clicks the &quot;Save Changes&quot; button
+ Professor Thompson clicks the {string} button" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson clicks the "Save Changes" button
+ Professor Thompson clicks the "Save Changes" button
+ Professor Thompson clicks the {string} button
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Editing and Updating Removing grading criteria from a published assignment" time="0.000" classname="Removing grading criteria from a published assignment">
+      <failure message="Timed out retrying after 6000ms: Expected to find content: &apos;Documentation: 30%&apos; within the selector: &apos;[data-testid=&quot;grading-criterion-item&quot;]&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: Expected to find content: 'Documentation: 30%' within the selector: '[data-testid="grading-criterion-item"]' but never did.
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10827:12)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9255:48)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10153:60)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

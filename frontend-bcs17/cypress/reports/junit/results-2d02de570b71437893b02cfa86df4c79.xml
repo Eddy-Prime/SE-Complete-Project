@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="60.267" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-05-11T19:33:22" tests="0" file="cypress/e2e/features/schedule_enrollment.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Schedule Enrollment" timestamp="2025-05-11T19:33:22" tests="4" time="60.232" failures="0">
+    <testcase name="Schedule Enrollment Successfully enroll in a schedule" time="14.890" classname="Successfully enroll in a schedule">
+    </testcase>
+    <testcase name="Schedule Enrollment View enrolled schedules" time="6.471" classname="View enrolled schedules">
+    </testcase>
+    <testcase name="Schedule Enrollment Attempt to enroll in a full schedule" time="8.527" classname="Attempt to enroll in a full schedule">
+    </testcase>
+    <testcase name="Schedule Enrollment Attempt to enroll in a schedule that conflicts with another enrolled schedule" time="11.014" classname="Attempt to enroll in a schedule that conflicts with another enrolled schedule">
+    </testcase>
+  </testsuite>
+</testsuites>

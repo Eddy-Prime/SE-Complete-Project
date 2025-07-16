@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.326" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2025-05-03T14:27:42" tests="0" file="cypress/e2e/features/assignment_viewing.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Viewing" timestamp="2025-05-03T14:27:42" tests="6" time="1.290" failures="6">
+    <testcase name="Assignment Viewing Viewing all assignments across enrolled schedules" time="0.000" classname="Viewing all assignments across enrolled schedules">
+      <failure message="
+Step implementation missing for &quot;Student Sarah is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Student Sarah is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Student Sarah is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("Student Sarah is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:8000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments organized by schedule" time="0.000" classname="Viewing assignments organized by schedule">
+      <failure message="
+Step implementation missing for &quot;Student Sarah is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Student Sarah is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Student Sarah is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("Student Sarah is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:8000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Sorting assignments by due date" time="0.000" classname="Sorting assignments by due date">
+      <failure message="
+Step implementation missing for &quot;Student Sarah is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Student Sarah is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Student Sarah is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("Student Sarah is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:8000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments by completion status" time="0.000" classname="Viewing assignments by completion status">
+      <failure message="
+Step implementation missing for &quot;Student Sarah is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Student Sarah is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Student Sarah is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("Student Sarah is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:8000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignment details" time="0.000" classname="Viewing assignment details">
+      <failure message="
+Step implementation missing for &quot;Student Sarah is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Student Sarah is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Student Sarah is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("Student Sarah is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:8000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments with approaching deadlines" time="0.000" classname="Viewing assignments with approaching deadlines">
+      <failure message="
+Step implementation missing for &quot;Student Sarah is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Student Sarah is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Student Sarah is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_viewing/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_viewing.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("Student Sarah is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:8000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10155:27)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

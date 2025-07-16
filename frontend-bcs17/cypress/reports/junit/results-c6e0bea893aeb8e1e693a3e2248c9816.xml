@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="52.343" tests="5" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-05-11T21:19:03" tests="0" file="cypress/e2e/features/assignment_editing.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Editing and Updating" timestamp="2025-05-11T21:19:03" tests="5" time="52.307" failures="2">
+    <testcase name="Assignment Editing and Updating Editing an unpublished assignment" time="0.000" classname="Editing an unpublished assignment">
+      <failure message="Multiple matching step definitions for: Professor Thompson changes the due date to &quot;06/01/2025&quot;
+ Professor Thompson changes the due date to {string}
+ Professor Thompson changes the due date to {string}" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson changes the due date to "06/01/2025"
+ Professor Thompson changes the due date to {string}
+ Professor Thompson changes the due date to {string}
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Editing and Updating Making limited changes to a published assignment" time="5.470" classname="Making limited changes to a published assignment">
+    </testcase>
+    <testcase name="Assignment Editing and Updating Attempting to reduce deadline of an assignment with submissions" time="0.000" classname="Attempting to reduce deadline of an assignment with submissions">
+      <failure message="Multiple matching step definitions for: Professor Thompson changes the due date to &quot;04/30/2025&quot;
+ Professor Thompson changes the due date to {string}
+ Professor Thompson changes the due date to {string}" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson changes the due date to "04/30/2025"
+ Professor Thompson changes the due date to {string}
+ Professor Thompson changes the due date to {string}
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Editing and Updating Adding new file attachments to a published assignment" time="5.403" classname="Adding new file attachments to a published assignment">
+    </testcase>
+    <testcase name="Assignment Editing and Updating Removing grading criteria from a published assignment" time="5.521" classname="Removing grading criteria from a published assignment">
+    </testcase>
+  </testsuite>
+</testsuites>

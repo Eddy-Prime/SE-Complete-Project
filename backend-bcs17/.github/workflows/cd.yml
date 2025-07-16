@@ -1,0 +1,74 @@
+name: CD Pipeline
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["CI Pipeline"]
+    types:
+      - completed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: "21"
+          distribution: "microsoft"
+
+      - name: Fetch Latest JAR Version from Maven Metadata
+        run: |
+          mkdir -p download
+
+          echo "Fetching Maven Metadata..."
+          METADATA_URL="https://maven.pkg.github.com/UcllSoftwareEngineering2425/backend-bcs17/be/ucll/se/bcs17/courses-backend/0.0.1-SNAPSHOT/maven-metadata.xml"
+
+          METADATA=$(curl -s -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" "$METADATA_URL")
+
+          if [[ -z "$METADATA" ]]; then
+              echo "❌ Error: Failed to fetch metadata.xml. Exiting..."
+              exit 1
+          fi
+
+          echo "Checking metadata.xml content..."
+
+          # Remove the metadata validation check that's failing
+          # We can see metadata is being returned - just not in the format we expected
+
+          # Extract the build number directly from the timestamp in the metadata
+          BUILD_TIMESTAMP=$(echo "$METADATA" | grep -oP '(?<=<timestamp>)[^<]+' | head -1)
+          BUILD_NUMBER=$(echo "$METADATA" | grep -oP '(?<=<buildNumber>)[^<]+' | head -1)
+
+          if [[ -z "$BUILD_TIMESTAMP" || -z "$BUILD_NUMBER" ]]; then
+              echo "❌ Error: Could not extract build information. Exiting..."
+              exit 1
+          fi
+
+          LATEST_VERSION="0.0.1-$BUILD_TIMESTAMP-$BUILD_NUMBER"
+
+          echo "Latest version: $LATEST_VERSION"
+
+          JAR_FILENAME="courses-backend-$LATEST_VERSION.jar"
+          JAR_URL="https://maven.pkg.github.com/UcllSoftwareEngineering2425/backend-bcs17/be/ucll/se/bcs17/courses-backend/0.0.1-SNAPSHOT/$JAR_FILENAME"
+
+          echo "Downloading JAR from $JAR_URL"
+          curl -L -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" \
+            "$JAR_URL" --output download/app.jar
+
+          # Verify the JAR file was downloaded correctly
+          ls -la download/app.jar
+          JAR_SIZE=$(stat -c%s "download/app.jar" 2>/dev/null || stat -f%z "download/app.jar")
+          echo "JAR file size: $JAR_SIZE bytes"
+
+          if [[ $JAR_SIZE -lt 1000 ]]; then
+              echo "❌ Error: Downloaded JAR file is too small ($JAR_SIZE bytes). Something is wrong."
+              exit 1
+          fi
+
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: "bcs17-backend"
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_665589AAFADE4B699096D9EB9B63DBE0 }}
+          package: "download/app.jar"

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.258" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-05-03T14:34:48" tests="1" file="cypress/e2e/features/assignment_creation.feature" time="0.250" failures="1">
+    <testcase name="An uncaught error was detected outside of a test" time="0.000" classname="An uncaught error was detected outside of a test">
+      <failure message="The following error originated from your test code, not from Cypress.
+
+  &gt; Expected to find a global registry (this usually means you are trying to define steps or hooks in support/e2e.js, which is not supported) (this might be a bug, please report at https://github.com/badeball/cypress-cucumber-preprocessor)
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure." type="Error"><![CDATA[Error: The following error originated from your test code, not from Cypress.
+
+  > Expected to find a global registry (this usually means you are trying to define steps or hooks in support/e2e.js, which is not supported) (this might be a bug, please report at https://github.com/badeball/cypress-cucumber-preprocessor)
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure.
+    at createError (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:13376:16)
+    at fail (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:13380:15)
+    at assert (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:13387:9)
+    at assertAndReturn (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:13391:9)
+    at getRegistry (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:22411:49)
+    at defineStep (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:23433:36)
+    at cypress/e2e/step_definitions/common/auth_steps.js (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:23558:54)
+    at __init (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:17:58)
+    at eval (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:24758:3)
+    at eval (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:24808:3)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

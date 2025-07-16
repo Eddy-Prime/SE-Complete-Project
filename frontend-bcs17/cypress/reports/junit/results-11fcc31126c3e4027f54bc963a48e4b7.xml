@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.510" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-05-03T13:45:32" tests="0" file="cypress/e2e/features/assignment_viewing.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Viewing" timestamp="2025-05-03T13:45:32" tests="6" time="5.481" failures="0">
+    <testcase name="Assignment Viewing Viewing all assignments across enrolled schedules" time="1.018" classname="Viewing all assignments across enrolled schedules">
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments organized by schedule" time="0.885" classname="Viewing assignments organized by schedule">
+    </testcase>
+    <testcase name="Assignment Viewing Sorting assignments by due date" time="0.842" classname="Sorting assignments by due date">
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments by completion status" time="0.875" classname="Viewing assignments by completion status">
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignment details" time="0.922" classname="Viewing assignment details">
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments with approaching deadlines" time="0.881" classname="Viewing assignments with approaching deadlines">
+    </testcase>
+  </testsuite>
+</testsuites>

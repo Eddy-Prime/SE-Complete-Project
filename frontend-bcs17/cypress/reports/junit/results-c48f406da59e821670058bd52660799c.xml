@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="43.387" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2025-05-03T15:38:34" tests="0" file="cypress/e2e/features/assignment_submission.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Submission" timestamp="2025-05-03T15:38:34" tests="6" time="43.350" failures="6">
+    <testcase name="Assignment Submission Successfully submitting an assignment before deadline" time="0.000" classname="Successfully submitting an assignment before deadline">
+      <failure message="Timed out retrying after 6000ms: expected &apos;http://localhost:3000/login&apos; to include &apos;/dashboard&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: expected 'http://localhost:3000/login' to include '/dashboard'
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10725:18)
+    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9245:48)
+    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10146:41)
+    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9850:36)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10143:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Submission Saving a draft submission" time="0.000" classname="Saving a draft submission">
+      <failure message="Timed out retrying after 6000ms: expected &apos;http://localhost:3000/login&apos; to include &apos;/dashboard&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: expected 'http://localhost:3000/login' to include '/dashboard'
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10725:18)
+    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9245:48)
+    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10146:41)
+    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9850:36)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10143:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Submission Editing and finalizing a draft submission" time="0.000" classname="Editing and finalizing a draft submission">
+      <failure message="Timed out retrying after 6000ms: expected &apos;http://localhost:3000/login&apos; to include &apos;/dashboard&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: expected 'http://localhost:3000/login' to include '/dashboard'
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10725:18)
+    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9245:48)
+    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10146:41)
+    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9850:36)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10143:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Submission Attempting to submit after the deadline" time="0.000" classname="Attempting to submit after the deadline">
+      <failure message="Timed out retrying after 6000ms: expected &apos;http://localhost:3000/login&apos; to include &apos;/dashboard&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: expected 'http://localhost:3000/login' to include '/dashboard'
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10725:18)
+    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9245:48)
+    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10146:41)
+    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9850:36)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10143:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Submission Viewing submission history" time="0.000" classname="Viewing submission history">
+      <failure message="Timed out retrying after 6000ms: expected &apos;http://localhost:3000/login&apos; to include &apos;/dashboard&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: expected 'http://localhost:3000/login' to include '/dashboard'
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10725:18)
+    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9245:48)
+    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10146:41)
+    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9850:36)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10143:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Submission Submitting an assignment with large file attachments" time="0.000" classname="Submitting an assignment with large file attachments">
+      <failure message="Timed out retrying after 6000ms: expected &apos;http://localhost:3000/login&apos; to include &apos;/dashboard&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: expected 'http://localhost:3000/login' to include '/dashboard'
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10725:18)
+    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9245:48)
+    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10146:41)
+    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:9850:36)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_submission.feature:10143:60)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,91 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-04-24T10:49:16.452Z",
+    "end": "2025-04-24T10:49:16.664Z",
+    "duration": 212,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "adcac42b-a637-4bca-bfc3-21f0f19961b1",
+      "title": "",
+      "fullFile": "cypress/e2e/features/assignment_editing.feature",
+      "file": "cypress/e2e/features/assignment_editing.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "An uncaught error was detected outside of a test",
+          "fullTitle": "An uncaught error was detected outside of a test",
+          "timedOut": null,
+          "duration": 188,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": null,
+          "code": "throw err;",
+          "err": {
+            "message": "Error: The following error originated from your test code, not from Cypress.\n\n  > Expected to find a global registry (this usually means you are trying to define steps or hooks in support/e2e.js, which is not supported) (this might be a bug, please report at https://github.com/badeball/cypress-cucumber-preprocessor)\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+            "estack": "Error: The following error originated from your test code, not from Cypress.\n\n  > Expected to find a global registry (this usually means you are trying to define steps or hooks in support/e2e.js, which is not supported) (this might be a bug, please report at https://github.com/badeball/cypress-cucumber-preprocessor)\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n    at createError (http://localhost:8080/__cypress/tests?p=cypress/support/e2e.js:536:16)\n    at fail (http://localhost:8080/__cypress/tests?p=cypress/support/e2e.js:540:15)\n    at assert (http://localhost:8080/__cypress/tests?p=cypress/support/e2e.js:547:9)\n    at assertAndReturn (http://localhost:8080/__cypress/tests?p=cypress/support/e2e.js:551:9)\n    at getRegistry (http://localhost:8080/__cypress/tests?p=cypress/support/e2e.js:9571:49)\n    at defineBefore (http://localhost:8080/__cypress/tests?p=cypress/support/e2e.js:10613:38)\n    at eval (http://localhost:8080/__cypress/tests?p=cypress/support/e2e.js:11265:51)\n    at eval (http://localhost:8080/__cypress/tests?p=cypress/support/e2e.js:11278:3)\n    at eval (<anonymous>)",
+            "diff": null
+          },
+          "uuid": "464fbb2c-34f8-46f0-b749-30bb39b61feb",
+          "parentUUID": "adcac42b-a637-4bca-bfc3-21f0f19961b1",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "464fbb2c-34f8-46f0-b749-30bb39b61feb"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 188,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

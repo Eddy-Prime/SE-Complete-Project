@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="31.429" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2025-04-24T11:01:54" tests="0" file="cypress/e2e/features/assignment_viewing.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Viewing" timestamp="2025-04-24T11:01:54" tests="6" time="31.396" failures="6">
+    <testcase name="Assignment Viewing Viewing all assignments across enrolled schedules" time="0.000" classname="Viewing all assignments across enrolled schedules">
+      <failure message="Timed out retrying after 4000ms: expected &apos;http://localhost:8080/login&apos; to include &apos;/dashboard&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'http://localhost:8080/login' to include '/dashboard'
+    at Context.eval (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10734:18)
+    at Registry.runStepDefininition (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9255:48)
+    at Object.fn (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9860:36)
+    at Context.eval (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments organized by schedule" time="0.000" classname="Viewing assignments organized by schedule">
+      <failure message="Timed out retrying after 4000ms: expected &apos;http://localhost:8080/login&apos; to include &apos;/dashboard&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'http://localhost:8080/login' to include '/dashboard'
+    at Context.eval (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10734:18)
+    at Registry.runStepDefininition (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9255:48)
+    at Object.fn (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9860:36)
+    at Context.eval (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Sorting assignments by due date" time="0.000" classname="Sorting assignments by due date">
+      <failure message="Timed out retrying after 4000ms: expected &apos;http://localhost:8080/login&apos; to include &apos;/dashboard&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'http://localhost:8080/login' to include '/dashboard'
+    at Context.eval (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10734:18)
+    at Registry.runStepDefininition (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9255:48)
+    at Object.fn (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9860:36)
+    at Context.eval (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments by completion status" time="0.000" classname="Viewing assignments by completion status">
+      <failure message="Timed out retrying after 4000ms: expected &apos;http://localhost:8080/login&apos; to include &apos;/dashboard&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'http://localhost:8080/login' to include '/dashboard'
+    at Context.eval (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10734:18)
+    at Registry.runStepDefininition (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9255:48)
+    at Object.fn (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9860:36)
+    at Context.eval (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignment details" time="0.000" classname="Viewing assignment details">
+      <failure message="Timed out retrying after 4000ms: expected &apos;http://localhost:8080/login&apos; to include &apos;/dashboard&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'http://localhost:8080/login' to include '/dashboard'
+    at Context.eval (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10734:18)
+    at Registry.runStepDefininition (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9255:48)
+    at Object.fn (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9860:36)
+    at Context.eval (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments with approaching deadlines" time="0.000" classname="Viewing assignments with approaching deadlines">
+      <failure message="Timed out retrying after 4000ms: expected &apos;http://localhost:8080/login&apos; to include &apos;/dashboard&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'http://localhost:8080/login' to include '/dashboard'
+    at Context.eval (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10734:18)
+    at Registry.runStepDefininition (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9255:48)
+    at Object.fn (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9860:36)
+    at Context.eval (http://localhost:8080/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10153:60)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.951" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-05-11T20:53:56" tests="0" file="cypress/e2e/features/navigation_test.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Navigation Test" timestamp="2025-05-11T20:53:56" tests="1" time="10.927" failures="0">
+    <testcase name="Navigation Test Professor Navigates" time="5.992" classname="Professor Navigates">
+    </testcase>
+  </testsuite>
+</testsuites>

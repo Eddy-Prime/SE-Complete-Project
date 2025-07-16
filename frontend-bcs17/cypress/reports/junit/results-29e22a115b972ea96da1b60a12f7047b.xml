@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="89.942" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2025-05-09T19:01:18" tests="0" file="cypress/e2e/features/assignment_grading.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Grading and Feedback" timestamp="2025-05-09T19:01:23" tests="6" time="85.791" failures="6">
+    <testcase name="Assignment Grading and Feedback Viewing all submissions for an assignment" time="0.000" classname="Viewing all submissions for an assignment">
+      <failure message="
+Step implementation missing for &quot;there is an assignment &quot;Web Application Project&quot; in the &quot;Software Engineering&quot; schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/assignment_grading.js
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;there is an assignment &quot;Web Application Project&quot; in the &quot;Software Engineering&quot; schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;there is an assignment {string} in the {string} schedule&quot;, function (string, string2) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "there is an assignment "Web Application Project" in the "Software Engineering" schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/assignment_grading.js
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "there is an assignment "Web Application Project" in the "Software Engineering" schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("there is an assignment {string} in the {string} schedule", function (string, string2) {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Grading a submission with full score" time="0.000" classname="Grading a submission with full score">
+      <failure message="
+Step implementation missing for &quot;there is an assignment &quot;Web Application Project&quot; in the &quot;Software Engineering&quot; schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/assignment_grading.js
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;there is an assignment &quot;Web Application Project&quot; in the &quot;Software Engineering&quot; schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;there is an assignment {string} in the {string} schedule&quot;, function (string, string2) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "there is an assignment "Web Application Project" in the "Software Engineering" schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/assignment_grading.js
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "there is an assignment "Web Application Project" in the "Software Engineering" schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("there is an assignment {string} in the {string} schedule", function (string, string2) {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Grading a submission with partial score" time="0.000" classname="Grading a submission with partial score">
+      <failure message="
+Step implementation missing for &quot;there is an assignment &quot;Web Application Project&quot; in the &quot;Software Engineering&quot; schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/assignment_grading.js
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;there is an assignment &quot;Web Application Project&quot; in the &quot;Software Engineering&quot; schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;there is an assignment {string} in the {string} schedule&quot;, function (string, string2) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "there is an assignment "Web Application Project" in the "Software Engineering" schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/assignment_grading.js
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "there is an assignment "Web Application Project" in the "Software Engineering" schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("there is an assignment {string} in the {string} schedule", function (string, string2) {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Grading using criteria breakdown" time="0.000" classname="Grading using criteria breakdown">
+      <failure message="
+Step implementation missing for &quot;there is an assignment &quot;Web Application Project&quot; in the &quot;Software Engineering&quot; schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/assignment_grading.js
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;there is an assignment &quot;Web Application Project&quot; in the &quot;Software Engineering&quot; schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;there is an assignment {string} in the {string} schedule&quot;, function (string, string2) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "there is an assignment "Web Application Project" in the "Software Engineering" schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/assignment_grading.js
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "there is an assignment "Web Application Project" in the "Software Engineering" schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("there is an assignment {string} in the {string} schedule", function (string, string2) {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Updating a grade after review" time="0.000" classname="Updating a grade after review">
+      <failure message="
+Step implementation missing for &quot;there is an assignment &quot;Web Application Project&quot; in the &quot;Software Engineering&quot; schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/assignment_grading.js
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;there is an assignment &quot;Web Application Project&quot; in the &quot;Software Engineering&quot; schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;there is an assignment {string} in the {string} schedule&quot;, function (string, string2) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "there is an assignment "Web Application Project" in the "Software Engineering" schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/assignment_grading.js
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "there is an assignment "Web Application Project" in the "Software Engineering" schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("there is an assignment {string} in the {string} schedule", function (string, string2) {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Providing feedback without a grade" time="0.000" classname="Providing feedback without a grade">
+      <failure message="
+Step implementation missing for &quot;there is an assignment &quot;Web Application Project&quot; in the &quot;Software Engineering&quot; schedule&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/assignment_grading.js
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;there is an assignment &quot;Web Application Project&quot; in the &quot;Software Engineering&quot; schedule&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;there is an assignment {string} in the {string} schedule&quot;, function (string, string2) {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "there is an assignment "Web Application Project" in the "Software Engineering" schedule".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/assignment_grading.js
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+  - cypress/support/step_definitions/*.{js,ts}
+  - cypress/support/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "there is an assignment "Web Application Project" in the "Software Engineering" schedule".
+
+You can implement it using the suggestion(s) below.
+
+  Given("there is an assignment {string} in the {string} schedule", function (string, string2) {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10165:27)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

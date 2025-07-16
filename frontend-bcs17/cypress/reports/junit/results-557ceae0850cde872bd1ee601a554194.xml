@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.944" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2025-05-11T15:22:16" tests="0" file="cypress/e2e/features/schedule_enrollment.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Schedule Enrollment" timestamp="2025-05-11T15:22:16" tests="4" time="0.913" failures="4">
+    <testcase name="Schedule Enrollment Successfully enroll in a schedule" time="0.000" classname="Successfully enroll in a schedule">
+      <failure message="
+Step implementation missing for &quot;I am logged in as a student&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.js
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+
+However, none of these files contained a step definition matching &quot;I am logged in as a student&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;I am logged in as a student&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "I am logged in as a student".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.js
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+
+However, none of these files contained a step definition matching "I am logged in as a student".
+
+You can implement it using the suggestion(s) below.
+
+  Given("I am logged in as a student", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Schedule Enrollment View enrolled schedules" time="0.000" classname="View enrolled schedules">
+      <failure message="
+Step implementation missing for &quot;I am logged in as a student&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.js
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+
+However, none of these files contained a step definition matching &quot;I am logged in as a student&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;I am logged in as a student&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "I am logged in as a student".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.js
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+
+However, none of these files contained a step definition matching "I am logged in as a student".
+
+You can implement it using the suggestion(s) below.
+
+  Given("I am logged in as a student", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Schedule Enrollment Attempt to enroll in a full schedule" time="0.000" classname="Attempt to enroll in a full schedule">
+      <failure message="
+Step implementation missing for &quot;I am logged in as a student&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.js
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+
+However, none of these files contained a step definition matching &quot;I am logged in as a student&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;I am logged in as a student&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "I am logged in as a student".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.js
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+
+However, none of these files contained a step definition matching "I am logged in as a student".
+
+You can implement it using the suggestion(s) below.
+
+  Given("I am logged in as a student", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Schedule Enrollment Attempt to enroll in a schedule that conflicts with another enrolled schedule" time="0.000" classname="Attempt to enroll in a schedule that conflicts with another enrolled schedule">
+      <failure message="
+Step implementation missing for &quot;I am logged in as a student&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.js
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+
+However, none of these files contained a step definition matching &quot;I am logged in as a student&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;I am logged in as a student&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "I am logged in as a student".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/step_definitions/[filepath].js
+  - cypress/e2e/step_definitions/[filepath].ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.js
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/*.{js,ts}
+  - cypress/e2e/step_definitions/**/*.{js,ts}
+
+These patterns matched the following files:
+
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/schedule_enrollment.ts
+  - cypress/e2e/step_definitions/common_steps.ts
+  - cypress/e2e/step_definitions/assignment_viewing.ts
+  - cypress/e2e/step_definitions/assignment_submission.ts
+  - cypress/e2e/step_definitions/assignment_grading.ts
+  - cypress/e2e/step_definitions/assignment_editing.ts
+  - cypress/e2e/step_definitions/assignment_creation.ts
+  - cypress/e2e/step_definitions/common/hooks.ts
+
+However, none of these files contained a step definition matching "I am logged in as a student".
+
+You can implement it using the suggestion(s) below.
+
+  Given("I am logged in as a student", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/schedule_enrollment.feature:10165:27)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

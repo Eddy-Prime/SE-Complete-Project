@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.246" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2025-05-03T13:53:07" tests="0" file="cypress/e2e/features/assignment_viewing.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Viewing" timestamp="2025-05-03T13:53:07" tests="6" time="1.215" failures="6">
+    <testcase name="Assignment Viewing Viewing all assignments across enrolled schedules" time="0.000" classname="Viewing all assignments across enrolled schedules">
+      <failure message="Multiple matching step definitions for: Student Sarah is logged in
+ Student Sarah is logged in
+ Student Sarah is logged in" type="Error"><![CDATA[Error: Multiple matching step definitions for: Student Sarah is logged in
+ Student Sarah is logged in
+ Student Sarah is logged in
+    at Registry.resolveStepDefintion (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9250:39)
+    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9860:36)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments organized by schedule" time="0.000" classname="Viewing assignments organized by schedule">
+      <failure message="Multiple matching step definitions for: Student Sarah is logged in
+ Student Sarah is logged in
+ Student Sarah is logged in" type="Error"><![CDATA[Error: Multiple matching step definitions for: Student Sarah is logged in
+ Student Sarah is logged in
+ Student Sarah is logged in
+    at Registry.resolveStepDefintion (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9250:39)
+    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9860:36)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Sorting assignments by due date" time="0.000" classname="Sorting assignments by due date">
+      <failure message="Multiple matching step definitions for: Student Sarah is logged in
+ Student Sarah is logged in
+ Student Sarah is logged in" type="Error"><![CDATA[Error: Multiple matching step definitions for: Student Sarah is logged in
+ Student Sarah is logged in
+ Student Sarah is logged in
+    at Registry.resolveStepDefintion (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9250:39)
+    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9860:36)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments by completion status" time="0.000" classname="Viewing assignments by completion status">
+      <failure message="Multiple matching step definitions for: Student Sarah is logged in
+ Student Sarah is logged in
+ Student Sarah is logged in" type="Error"><![CDATA[Error: Multiple matching step definitions for: Student Sarah is logged in
+ Student Sarah is logged in
+ Student Sarah is logged in
+    at Registry.resolveStepDefintion (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9250:39)
+    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9860:36)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignment details" time="0.000" classname="Viewing assignment details">
+      <failure message="Multiple matching step definitions for: Student Sarah is logged in
+ Student Sarah is logged in
+ Student Sarah is logged in" type="Error"><![CDATA[Error: Multiple matching step definitions for: Student Sarah is logged in
+ Student Sarah is logged in
+ Student Sarah is logged in
+    at Registry.resolveStepDefintion (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9250:39)
+    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9860:36)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Viewing Viewing assignments with approaching deadlines" time="0.000" classname="Viewing assignments with approaching deadlines">
+      <failure message="Multiple matching step definitions for: Student Sarah is logged in
+ Student Sarah is logged in
+ Student Sarah is logged in" type="Error"><![CDATA[Error: Multiple matching step definitions for: Student Sarah is logged in
+ Student Sarah is logged in
+ Student Sarah is logged in
+    at Registry.resolveStepDefintion (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9250:39)
+    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:9860:36)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_viewing.feature:10153:60)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+{
+  "specName": "assignment_creation.feature",
+  "testName": "Creating an assignment with a very long description",
+  "testState": "failed",
+  "testError": "Timed out retrying after 6000ms: Expected to find element: `[data-testid=\"username\"]`, but never found it.",
+  "testStack": "AssertionError: Timed out retrying after 6000ms: Expected to find element: `[data-testid=\"username\"]`, but never found it.\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10718:12)\n    at Registry.runStepDefininition (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9255:48)\n    at Object.fn (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10156:41)\n    at runStepWithLogGroup (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9860:36)\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10153:60)",
+  "timestamp": "2025-05-03T13-51-27.849Z"
+}

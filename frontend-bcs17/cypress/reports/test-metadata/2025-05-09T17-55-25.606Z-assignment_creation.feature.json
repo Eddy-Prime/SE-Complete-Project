@@ -1,0 +1,8 @@
+{
+  "specName": "assignment_creation.feature",
+  "testName": "Successfully creating an assignment with required fields",
+  "testState": "failed",
+  "testError": "Multiple matching step definitions for: Professor Thompson navigates to the assignment creation page\n Professor Thompson navigates to the assignment creation page\n Professor Thompson navigates to the assignment creation page",
+  "testStack": "Error: Multiple matching step definitions for: Professor Thompson navigates to the assignment creation page\n Professor Thompson navigates to the assignment creation page\n Professor Thompson navigates to the assignment creation page\n    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9235:19)\n    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9250:39)\n    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10156:41)\n    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9860:36)\n    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10153:60)",
+  "timestamp": "2025-05-09T17-55-25.606Z"
+}

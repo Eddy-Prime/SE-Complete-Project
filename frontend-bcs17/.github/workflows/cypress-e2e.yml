@@ -1,0 +1,257 @@
+name: Cypress E2E Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      spec:
+        description: "Specify feature file to run"
+        required: false
+        default: ""
+      browser:
+        description: "Browser to run tests in"
+        required: false
+        type: choice
+        options:
+          - chrome
+          - electron
+          - firefox
+        default: "chrome"
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    strategy:
+      fail-fast: false
+      matrix:
+        containers: [1, 2, 3] # Split tests across 3 containers for parallel execution
+        include:
+          - browser: ${{ github.event.inputs.browser || 'chrome' }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Debug directory structure and environment
+        run: |
+          echo "Current directory: $(pwd)"
+          ls -la
+          echo "Node version: $(node -v)"
+          echo "NPM version: $(npm -v)"
+          echo "Network ports in use:"
+          netstat -tuln || echo "netstat command not available"
+          echo "Environment variables (without secrets):"
+          env | grep -v -E "SECRET|TOKEN|PASSWORD|KEY"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+          cache: "npm"
+          cache-dependency-path: "./package-lock.json"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Setup backend (if needed)
+        run: |
+          echo "Setting up backend if needed..."
+          # Check if a backend directory exists
+          if [ -d "backend-bcs17" ]; then
+            echo "Found backend-bcs17 directory, checking if it needs to be started"
+            
+            # Check if the backend has a server script
+            if [ -f "backend-bcs17/package.json" ]; then
+              cd backend-bcs17
+              
+              # Display backend package.json for debugging
+              echo "Backend package.json content:"
+              cat package.json
+              
+              # Install backend dependencies if needed
+              if [ -f "package.json" ]; then
+                echo "Installing backend dependencies..."
+                npm ci || npm install
+                
+                # Start backend if it has a start script
+                if grep -q "\"start\":" package.json; then
+                  echo "Starting backend server..."
+                  npm run start > ../backend.log 2>&1 &
+                  echo "Backend server started in background. Check backend.log for details."
+                  sleep 10
+                else
+                  echo "No start script found in backend package.json"
+                fi
+              fi
+              
+              cd ..
+            fi
+          else
+            echo "No backend-bcs17 directory found"
+          fi
+
+          # Fallback - use the main server.js file if it exists
+          if [ -f "server.js" ]; then
+            echo "Found server.js file, will use it for frontend server"
+          else
+            echo "Warning: No server.js file found"
+          fi
+
+      - name: Start frontend server
+        run: |
+          npm run build
+          # Start the server in background with logs
+          npm run start > server.log 2>&1 &
+
+          # Capture the server PID for debugging
+          SERVER_PID=$!
+          echo "Server started with PID: $SERVER_PID"
+
+          # More robust server readiness check
+          echo "Waiting for server to be ready..."
+          for i in {1..45}; do
+            echo "Attempt $i of 45..."
+            if curl -s --fail http://localhost:3001 -o /dev/null; then
+              echo "Server is up and running!"
+              break
+            fi
+            
+            # Check if process is still running
+            if ! ps -p $SERVER_PID > /dev/null; then
+              echo "Server process died! Check logs:"
+              cat server.log
+              exit 1
+            fi
+            
+            # Sleep between retries
+            echo "Waiting for server (attempt $i of 45)..."
+            sleep 5
+            
+            # Show logs periodically
+            if [ $((i % 5)) -eq 0 ]; then
+              echo "Current server logs:"
+              tail -n 20 server.log
+            fi
+          done
+
+          # If we've tried 45 times and still not ready, we'll exit
+          if [ $i -eq 45 ]; then
+            echo "Server failed to start after 45 attempts"
+            echo "Full server logs:"
+            cat server.log
+            exit 1
+          fi
+
+      - name: Verify server status
+        run: |
+          echo "Checking server status before running tests..."
+          curl -I http://localhost:3001 || echo "Server not responding to HEAD request"
+          echo "Active processes:"
+          ps aux | grep node
+          echo "Open ports:"
+          netstat -tuln | grep LISTEN || echo "netstat command not available"
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v5
+        with:
+          browser: chrome
+          record: false
+          parallel: true
+          group: "UI - Chrome"
+          spec: cypress/e2e/features/*.feature
+          config: baseUrl=http://localhost:3001
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
+          # CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          CYPRESS_baseUrl: http://localhost:3001
+
+      - name: Generate Cucumber HTML report
+        if: always()
+        run: |
+          # Debug current directory and report script location
+          echo "Current directory: $(pwd)"
+          ls -la cypress/reports || echo "cypress/reports directory not found"
+
+          # Install the multiple-cucumber-html-reporter package explicitly
+          npm install multiple-cucumber-html-reporter@3.4.0
+
+          # Ensure the cucumber-html directory exists
+          mkdir -p cypress/reports/cucumber-html
+          mkdir -p cypress/reports/cucumber
+
+          # Create the report generation script
+          cat > cypress/reports/generate-html-report.js << 'EOL'
+          const report = require('multiple-cucumber-html-reporter');
+          const path = require('path');
+
+          report.generate({
+            jsonDir: path.join(__dirname, 'cucumber'),
+            reportPath: path.join(__dirname, 'cucumber-html'),
+            metadata: {
+              browser: { name: 'chrome', version: '100' },
+              device: 'CI/CD Pipeline',
+              platform: { name: 'ubuntu', version: 'latest' }
+            },
+            customData: {
+              title: 'Cypress Test Run',
+              data: [
+                { label: 'Project', value: 'Assignment System' },
+                { label: 'Execution Start Time', value: new Date().toISOString() }
+              ]
+            },
+            displayDuration: true
+          });
+          EOL
+
+          # Run the report generation script
+          node cypress/reports/generate-html-report.js || echo "Warning: Report generation failed, but continuing workflow"
+
+      - name: Upload Cypress Reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cypress-reports-${{ matrix.containers }}
+          path: cypress/reports
+          retention-days: 7
+
+      - name: Upload Screenshots
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cypress-screenshots-${{ matrix.containers }}
+          path: cypress/screenshots
+          retention-days: 7
+
+      - name: Upload Videos
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cypress-videos-${{ matrix.containers }}
+          path: cypress/videos
+          retention-days: 7
+
+      - name: Upload Server Logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: server-logs-${{ matrix.containers }}
+          path: |
+            server.log
+            backend.log
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Display final status
+        if: always()
+        run: |
+          echo "Test run completed with status: ${{ job.status }}"
+          echo "Summary of active processes:"
+          ps aux | grep node || echo "No node processes found"
+          echo "Final network status:"
+          netstat -tuln | grep LISTEN || echo "No listening ports found"

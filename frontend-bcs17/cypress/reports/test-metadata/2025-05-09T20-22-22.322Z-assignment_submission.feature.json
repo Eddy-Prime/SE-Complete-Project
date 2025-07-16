@@ -1,0 +1,8 @@
+{
+  "specName": "assignment_submission.feature",
+  "testName": "Successfully submitting an assignment before deadline",
+  "testState": "failed",
+  "testError": "Timed out retrying after 6000ms: expected 'http://localhost:3001/login' to not include '/login'",
+  "testStack": "AssertionError: Timed out retrying after 6000ms: expected 'http://localhost:3001/login' to not include '/login'\n    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/support/e2e.ts:13365:14)",
+  "timestamp": "2025-05-09T20-22-22.322Z"
+}

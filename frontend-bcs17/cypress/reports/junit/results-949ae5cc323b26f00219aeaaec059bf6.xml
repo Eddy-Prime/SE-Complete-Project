@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="38.566" tests="5" failures="5">
+  <testsuite name="Root Suite" timestamp="2025-05-09T10:57:42" tests="0" file="cypress/e2e/features/assignment_creation.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Creation" timestamp="2025-05-09T10:57:47" tests="5" time="33.660" failures="5">
+    <testcase name="Assignment Creation Successfully creating an assignment with required fields" time="0.000" classname="Successfully creating an assignment with required fields">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson navigates to the assignment creation page&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/schedule_enrollment_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;Professor Thompson navigates to the assignment creation page&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson navigates to the assignment creation page&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson navigates to the assignment creation page".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/schedule_enrollment_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "Professor Thompson navigates to the assignment creation page".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson navigates to the assignment creation page", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Creation Attempting to create an assignment without required fields" time="0.000" classname="Attempting to create an assignment without required fields">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson navigates to the assignment creation page&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/schedule_enrollment_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;Professor Thompson navigates to the assignment creation page&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson navigates to the assignment creation page&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson navigates to the assignment creation page".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/schedule_enrollment_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "Professor Thompson navigates to the assignment creation page".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson navigates to the assignment creation page", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with file attachments" time="0.000" classname="Creating an assignment with file attachments">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson navigates to the assignment creation page&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/schedule_enrollment_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;Professor Thompson navigates to the assignment creation page&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson navigates to the assignment creation page&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson navigates to the assignment creation page".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/schedule_enrollment_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "Professor Thompson navigates to the assignment creation page".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson navigates to the assignment creation page", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with a past due date" time="0.000" classname="Creating an assignment with a past due date">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson navigates to the assignment creation page&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/schedule_enrollment_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;Professor Thompson navigates to the assignment creation page&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson navigates to the assignment creation page&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson navigates to the assignment creation page".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/schedule_enrollment_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "Professor Thompson navigates to the assignment creation page".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson navigates to the assignment creation page", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with a very long description" time="0.000" classname="Creating an assignment with a very long description">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson navigates to the assignment creation page&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/schedule_enrollment_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching &quot;Professor Thompson navigates to the assignment creation page&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson navigates to the assignment creation page&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson navigates to the assignment creation page".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress/e2e/features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/schedule_enrollment_steps.js
+  - cypress/support/step_definitions/common_steps.js
+  - cypress/support/step_definitions/auth_steps.js
+  - cypress/support/step_definitions/assignment_editing_steps.js
+
+However, none of these files contained a step definition matching "Professor Thompson navigates to the assignment creation page".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson navigates to the assignment creation page", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10155:27)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

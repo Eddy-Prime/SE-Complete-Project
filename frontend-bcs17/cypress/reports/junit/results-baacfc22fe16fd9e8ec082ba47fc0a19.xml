@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="52.698" tests="5" failures="5">
+  <testsuite name="Root Suite" timestamp="2025-05-11T21:09:14" tests="0" file="cypress/e2e/features/assignment_editing.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Editing and Updating" timestamp="2025-05-11T21:09:14" tests="5" time="52.662" failures="5">
+    <testcase name="Assignment Editing and Updating Editing an unpublished assignment" time="0.000" classname="Editing an unpublished assignment">
+      <failure message="Multiple matching step definitions for: Professor Thompson clicks the &quot;Edit Assignment&quot; button
+ Professor Thompson clicks the &quot;Edit Assignment&quot; button
+ Professor Thompson clicks the {string} button" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson clicks the "Edit Assignment" button
+ Professor Thompson clicks the "Edit Assignment" button
+ Professor Thompson clicks the {string} button
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Editing and Updating Making limited changes to a published assignment" time="0.000" classname="Making limited changes to a published assignment">
+      <failure message="Multiple matching step definitions for: Professor Thompson clicks the &quot;Edit Assignment&quot; button
+ Professor Thompson clicks the &quot;Edit Assignment&quot; button
+ Professor Thompson clicks the {string} button" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson clicks the "Edit Assignment" button
+ Professor Thompson clicks the "Edit Assignment" button
+ Professor Thompson clicks the {string} button
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Editing and Updating Attempting to reduce deadline of an assignment with submissions" time="0.000" classname="Attempting to reduce deadline of an assignment with submissions">
+      <failure message="Multiple matching step definitions for: Professor Thompson clicks the &quot;Edit Assignment&quot; button
+ Professor Thompson clicks the &quot;Edit Assignment&quot; button
+ Professor Thompson clicks the {string} button" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson clicks the "Edit Assignment" button
+ Professor Thompson clicks the "Edit Assignment" button
+ Professor Thompson clicks the {string} button
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Editing and Updating Adding new file attachments to a published assignment" time="0.000" classname="Adding new file attachments to a published assignment">
+      <failure message="Multiple matching step definitions for: Professor Thompson clicks the &quot;Edit Assignment&quot; button
+ Professor Thompson clicks the &quot;Edit Assignment&quot; button
+ Professor Thompson clicks the {string} button" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson clicks the "Edit Assignment" button
+ Professor Thompson clicks the "Edit Assignment" button
+ Professor Thompson clicks the {string} button
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Editing and Updating Removing grading criteria from a published assignment" time="0.000" classname="Removing grading criteria from a published assignment">
+      <failure message="Multiple matching step definitions for: Professor Thompson clicks the &quot;Edit Assignment&quot; button
+ Professor Thompson clicks the &quot;Edit Assignment&quot; button
+ Professor Thompson clicks the {string} button" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson clicks the "Edit Assignment" button
+ Professor Thompson clicks the "Edit Assignment" button
+ Professor Thompson clicks the {string} button
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_editing.feature:10153:60)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

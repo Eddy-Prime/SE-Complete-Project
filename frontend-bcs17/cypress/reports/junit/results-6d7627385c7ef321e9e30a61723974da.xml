@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.029" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-05-11T20:56:23" tests="0" file="cypress/e2e/features/single_scenario.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Creation Single Test" timestamp="2025-05-11T20:56:23" tests="1" time="11.004" failures="0">
+    <testcase name="Assignment Creation Single Test Successfully creating an assignment with required fields" time="6.135" classname="Successfully creating an assignment with required fields">
+    </testcase>
+  </testsuite>
+</testsuites>

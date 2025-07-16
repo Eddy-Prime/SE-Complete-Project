@@ -1,0 +1,20 @@
+{
+  "json": {
+    "enabled": true,
+    "output": "cypress/reports/cucumber/results.json"
+  },
+  "messages": {
+    "enabled": true,
+    "output": "cypress/reports/cucumber/messages.ndjson"
+  },
+  "html": {
+    "enabled": true,
+    "output": "cypress/reports/cucumber/report.html"
+  },
+  "stepDefinitions": [
+    "cypress/e2e/step_definitions/[filepath].js",
+    "cypress/e2e/step_definitions/[filepath].ts",
+    "cypress/e2e/step_definitions/*.{js,ts}",
+    "cypress/e2e/step_definitions/**/*.{js,ts}"
+  ]
+}

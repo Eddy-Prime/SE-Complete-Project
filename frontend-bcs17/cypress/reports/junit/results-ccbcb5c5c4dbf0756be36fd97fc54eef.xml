@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="51.407" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-05-11T21:27:01" tests="0" file="cypress/e2e/features/assignment_editing.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Editing and Updating" timestamp="2025-05-11T21:27:01" tests="5" time="51.368" failures="0">
+    <testcase name="Assignment Editing and Updating Editing an unpublished assignment" time="5.586" classname="Editing an unpublished assignment">
+    </testcase>
+    <testcase name="Assignment Editing and Updating Making limited changes to a published assignment" time="5.425" classname="Making limited changes to a published assignment">
+    </testcase>
+    <testcase name="Assignment Editing and Updating Attempting to reduce deadline of an assignment with submissions" time="5.294" classname="Attempting to reduce deadline of an assignment with submissions">
+    </testcase>
+    <testcase name="Assignment Editing and Updating Adding new file attachments to a published assignment" time="5.294" classname="Adding new file attachments to a published assignment">
+    </testcase>
+    <testcase name="Assignment Editing and Updating Removing grading criteria from a published assignment" time="5.337" classname="Removing grading criteria from a published assignment">
+    </testcase>
+  </testsuite>
+</testsuites>

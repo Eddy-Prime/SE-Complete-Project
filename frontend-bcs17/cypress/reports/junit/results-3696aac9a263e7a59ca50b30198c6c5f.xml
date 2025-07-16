@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.954" tests="5" failures="5">
+  <testsuite name="Root Suite" timestamp="2025-05-09T17:55:23" tests="0" file="cypress/e2e/features/assignment_creation.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Creation" timestamp="2025-05-09T17:55:23" tests="5" time="8.888" failures="5">
+    <testcase name="Assignment Creation Successfully creating an assignment with required fields" time="0.000" classname="Successfully creating an assignment with required fields">
+      <failure message="Multiple matching step definitions for: Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Creation Attempting to create an assignment without required fields" time="0.000" classname="Attempting to create an assignment without required fields">
+      <failure message="Multiple matching step definitions for: Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with file attachments" time="0.000" classname="Creating an assignment with file attachments">
+      <failure message="Multiple matching step definitions for: Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with a past due date" time="0.000" classname="Creating an assignment with a past due date">
+      <failure message="Multiple matching step definitions for: Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10153:60)]]></failure>
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with a very long description" time="0.000" classname="Creating an assignment with a very long description">
+      <failure message="Multiple matching step definitions for: Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+ Professor Thompson navigates to the assignment creation page
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10153:60)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

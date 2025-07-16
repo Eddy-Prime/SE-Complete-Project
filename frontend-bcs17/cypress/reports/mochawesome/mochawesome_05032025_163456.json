@@ -1,0 +1,95 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-05-03T14:34:56.200Z",
+    "end": "2025-05-03T14:34:56.420Z",
+    "duration": 220,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f738d36c-7697-45bc-a962-f9775c5f53b3",
+      "title": "",
+      "fullFile": "cypress/e2e/features/assignment_submission.feature",
+      "file": "cypress/e2e/features/assignment_submission.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "An uncaught error was detected outside of a test",
+          "fullTitle": "An uncaught error was detected outside of a test",
+          "timedOut": null,
+          "duration": 195,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress/e2e/features/assignment_submission.feature\"\n}",
+          "code": "throw err;",
+          "err": {
+            "message": "Error: The following error originated from your test code, not from Cypress.\n\n  > Expected to find a global registry (this usually means you are trying to define steps or hooks in support/e2e.js, which is not supported) (this might be a bug, please report at https://github.com/badeball/cypress-cucumber-preprocessor)\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+            "estack": "Error: The following error originated from your test code, not from Cypress.\n\n  > Expected to find a global registry (this usually means you are trying to define steps or hooks in support/e2e.js, which is not supported) (this might be a bug, please report at https://github.com/badeball/cypress-cucumber-preprocessor)\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n    at createError (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:13376:16)\n    at fail (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:13380:15)\n    at assert (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:13387:9)\n    at assertAndReturn (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:13391:9)\n    at getRegistry (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:22411:49)\n    at defineStep (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:23433:36)\n    at cypress/e2e/step_definitions/common/auth_steps.js (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:23558:54)\n    at __init (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:17:58)\n    at eval (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:24758:3)\n    at eval (http://localhost:8000/__cypress/tests?p=cypress/support/e2e.js:24808:3)",
+            "diff": null
+          },
+          "uuid": "83d19f0a-41a5-4bc5-8001-376bdec2bd93",
+          "parentUUID": "f738d36c-7697-45bc-a962-f9775c5f53b3",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "83d19f0a-41a5-4bc5-8001-376bdec2bd93"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 195,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss",
+        "charts": true,
+        "embeddedScreenshots": true,
+        "inlineAssets": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

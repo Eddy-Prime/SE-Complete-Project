@@ -1,0 +1,67 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Node.js version
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+          registry-url: https://npm.pkg.github.com/
+          
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the Next.js app
+        run: npm run build
+
+      - name: Debug standalone build contents
+        run: |
+          echo "Checking contents of .next/standalone/ before packaging..."
+          ls -lh .next/standalone/
+          ls -lh .next/standalone/.next/
+
+      - name: Prepare standalone build
+        run: |
+          mkdir -p build_package
+          cp -r .next/standalone/* build_package/
+          echo "Explicitly copying .next/standalone/.next/..."
+          cp -r .next/standalone/.next build_package/  # Ensures .next is at the root
+          cp -r .next/static build_package/.next/
+          cp -r public build_package/
+          cp package.json build_package/
+
+      - name: Package artifact
+        run: |
+          cd build_package
+          zip -r ../release.zip .
+
+      - name: Authenticate with GitHub CLI
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+      - name: Delete previous package versions
+        run: |
+          gh api -X GET /orgs/ucllsoftwareengineering2425/packages/npm/frontend-bcs17/versions | jq -r '.[].id' | while read -r pkg_id; do
+            gh api --method DELETE /orgs/ucllsoftwareengineering2425/packages/npm/frontend-bcs17/versions/$pkg_id
+          done
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish package to GitHub Packages
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

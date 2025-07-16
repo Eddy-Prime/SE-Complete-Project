@@ -1,0 +1,257 @@
+{
+  "test": "Successfully enroll in a schedule",
+  "duration": 250,
+  "timestamp": "2025-05-09T10:33:59.093Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 194,
+  "timestamp": "2025-05-09T10:33:59.403Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 199,
+  "timestamp": "2025-05-09T10:33:59.668Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 197,
+  "timestamp": "2025-05-09T10:33:59.936Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 3331,
+  "timestamp": "2025-05-09T10:44:02.801Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 1959,
+  "timestamp": "2025-05-09T10:44:09.732Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 1891,
+  "timestamp": "2025-05-09T10:44:16.531Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 1899,
+  "timestamp": "2025-05-09T10:44:23.381Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 2464,
+  "timestamp": "2025-05-09T10:51:08.425Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 1959,
+  "timestamp": "2025-05-09T10:51:15.361Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 1934,
+  "timestamp": "2025-05-09T10:51:22.235Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 1891,
+  "timestamp": "2025-05-09T10:51:29.010Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 2430,
+  "timestamp": "2025-05-09T10:53:24.088Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 1992,
+  "timestamp": "2025-05-09T10:53:31.100Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 1990,
+  "timestamp": "2025-05-09T10:53:38.004Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 1973,
+  "timestamp": "2025-05-09T10:53:44.899Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 2422,
+  "timestamp": "2025-05-09T10:59:06.689Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 1924,
+  "timestamp": "2025-05-09T10:59:13.594Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 1901,
+  "timestamp": "2025-05-09T10:59:20.418Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 1962,
+  "timestamp": "2025-05-09T10:59:27.237Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 2479,
+  "timestamp": "2025-05-09T11:04:02.965Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 2019,
+  "timestamp": "2025-05-09T11:04:09.917Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 1939,
+  "timestamp": "2025-05-09T11:04:16.759Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 1955,
+  "timestamp": "2025-05-09T11:04:23.630Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 2506,
+  "timestamp": "2025-05-09T11:10:37.436Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 2000,
+  "timestamp": "2025-05-09T11:10:44.383Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 1906,
+  "timestamp": "2025-05-09T11:10:51.159Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 1878,
+  "timestamp": "2025-05-09T11:10:57.900Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 2409,
+  "timestamp": "2025-05-09T11:15:13.546Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 1915,
+  "timestamp": "2025-05-09T11:15:20.456Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 1902,
+  "timestamp": "2025-05-09T11:15:27.280Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 1950,
+  "timestamp": "2025-05-09T11:15:34.148Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 2656,
+  "timestamp": "2025-05-09T11:19:32.962Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 1927,
+  "timestamp": "2025-05-09T11:19:39.838Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 1900,
+  "timestamp": "2025-05-09T11:19:46.639Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 1870,
+  "timestamp": "2025-05-09T11:19:53.387Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 2466,
+  "timestamp": "2025-05-09T11:29:47.698Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 2032,
+  "timestamp": "2025-05-09T11:29:54.664Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 1981,
+  "timestamp": "2025-05-09T11:30:01.514Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 1934,
+  "timestamp": "2025-05-09T11:30:08.356Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 813,
+  "timestamp": "2025-05-09T11:32:05.092Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 718,
+  "timestamp": "2025-05-09T11:32:15.571Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 703,
+  "timestamp": "2025-05-09T11:32:26.030Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 711,
+  "timestamp": "2025-05-09T11:32:36.444Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 5182,
+  "timestamp": "2025-05-09T11:34:18.595Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 5030,
+  "timestamp": "2025-05-09T11:34:33.340Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 5004,
+  "timestamp": "2025-05-09T11:34:48.022Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 4985,
+  "timestamp": "2025-05-09T11:35:02.688Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 6858,
+  "timestamp": "2025-05-09T11:36:49.752Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 6571,
+  "timestamp": "2025-05-09T11:37:06.075Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 6556,
+  "timestamp": "2025-05-09T11:37:22.379Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 6472,
+  "timestamp": "2025-05-09T11:37:38.573Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 13241,
+  "timestamp": "2025-05-09T11:39:15.814Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 13032,
+  "timestamp": "2025-05-09T11:39:38.614Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 12991,
+  "timestamp": "2025-05-09T11:40:01.321Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 13006,
+  "timestamp": "2025-05-09T11:40:24.056Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 14257,
+  "timestamp": "2025-05-09T11:46:46.648Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 14020,
+  "timestamp": "2025-05-09T11:47:10.388Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 13968,
+  "timestamp": "2025-05-09T11:47:34.104Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 13969,
+  "timestamp": "2025-05-09T11:47:57.753Z"
+}{
+  "test": "Successfully enroll in a schedule",
+  "duration": 17070,
+  "timestamp": "2025-05-09T11:49:54.246Z"
+}{
+  "test": "View enrolled schedules",
+  "duration": 16733,
+  "timestamp": "2025-05-09T11:50:20.731Z"
+}{
+  "test": "Attempt to enroll in a full schedule",
+  "duration": 16540,
+  "timestamp": "2025-05-09T11:50:46.955Z"
+}{
+  "test": "Attempt to enroll in a schedule that conflicts with another enrolled schedule",
+  "duration": 16751,
+  "timestamp": "2025-05-09T11:51:13.448Z"
+}

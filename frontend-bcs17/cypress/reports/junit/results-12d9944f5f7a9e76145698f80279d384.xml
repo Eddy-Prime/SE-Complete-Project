@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.211" tests="5" failures="5">
+  <testsuite name="Root Suite" timestamp="2025-05-03T13:45:08" tests="0" file="cypress/e2e/features/assignment_creation.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Creation" timestamp="2025-05-03T13:45:08" tests="5" time="1.179" failures="5">
+    <testcase name="Assignment Creation Successfully creating an assignment with required fields" time="0.000" classname="Successfully creating an assignment with required fields">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching &quot;Professor Thompson is logged in&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching "Professor Thompson is logged in".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Creation Attempting to create an assignment without required fields" time="0.000" classname="Attempting to create an assignment without required fields">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching &quot;Professor Thompson is logged in&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching "Professor Thompson is logged in".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with file attachments" time="0.000" classname="Creating an assignment with file attachments">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching &quot;Professor Thompson is logged in&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching "Professor Thompson is logged in".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with a past due date" time="0.000" classname="Creating an assignment with a past due date">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching &quot;Professor Thompson is logged in&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching "Professor Thompson is logged in".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10165:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with a very long description" time="0.000" classname="Creating an assignment with a very long description">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching &quot;Professor Thompson is logged in&quot;.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_creation/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_creation.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched the following files:
+
+  - cypress/support/step_definitions/assignment_viewing.js
+
+However, none of these files contained a step definition matching "Professor Thompson is logged in".
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/e2e/features/assignment_creation.feature:10165:27)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

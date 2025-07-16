@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.017" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-05-11T20:55:10" tests="0" file="cypress/e2e/features/single_scenario.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Creation Single Test" timestamp="2025-05-11T20:55:10" tests="1" time="10.993" failures="1">
+    <testcase name="Assignment Creation Single Test Successfully creating an assignment with required fields" time="0.000" classname="Successfully creating an assignment with required fields">
+      <failure message="Multiple matching step definitions for: Professor Thompson should see a success message
+ Professor Thompson should see a success message
+ Professor Thompson should see a success message" type="Error"><![CDATA[Error: Multiple matching step definitions for: Professor Thompson should see a success message
+ Professor Thompson should see a success message
+ Professor Thompson should see a success message
+    at Registry.resolveStepDefintion (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/single_scenario.feature:9235:19)
+    at Registry.runStepDefininition (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/single_scenario.feature:9250:39)
+    at Object.fn (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/single_scenario.feature:10156:41)
+    at runStepWithLogGroup (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/single_scenario.feature:9860:36)
+    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/features/single_scenario.feature:10153:60)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

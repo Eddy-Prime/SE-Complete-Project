@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="53.819" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-05-11T20:57:00" tests="0" file="cypress/e2e/features/assignment_creation.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Creation" timestamp="2025-05-11T20:57:00" tests="5" time="53.795" failures="0">
+    <testcase name="Assignment Creation Successfully creating an assignment with required fields" time="6.129" classname="Successfully creating an assignment with required fields">
+    </testcase>
+    <testcase name="Assignment Creation Attempting to create an assignment without required fields" time="5.780" classname="Attempting to create an assignment without required fields">
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with file attachments" time="5.816" classname="Creating an assignment with file attachments">
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with a past due date" time="5.763" classname="Creating an assignment with a past due date">
+    </testcase>
+    <testcase name="Assignment Creation Creating an assignment with a very long description" time="5.814" classname="Creating an assignment with a very long description">
+    </testcase>
+  </testsuite>
+</testsuites>

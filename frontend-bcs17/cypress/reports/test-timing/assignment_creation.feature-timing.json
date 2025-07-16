@@ -1,0 +1,1069 @@
+{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 217,
+  "timestamp": "2025-05-03T13:45:08.552Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 219,
+  "timestamp": "2025-05-03T13:45:08.823Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 196,
+  "timestamp": "2025-05-03T13:45:09.100Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 169,
+  "timestamp": "2025-05-03T13:45:09.298Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 171,
+  "timestamp": "2025-05-03T13:45:09.498Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 6868,
+  "timestamp": "2025-05-03T13:51:01.537Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 6551,
+  "timestamp": "2025-05-03T13:51:08.137Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 6554,
+  "timestamp": "2025-05-03T13:51:14.785Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 6493,
+  "timestamp": "2025-05-03T13:51:21.327Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 6471,
+  "timestamp": "2025-05-03T13:51:27.839Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 224,
+  "timestamp": "2025-05-03T14:02:08.772Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 171,
+  "timestamp": "2025-05-03T14:02:08.987Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 175,
+  "timestamp": "2025-05-03T14:02:09.191Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 182,
+  "timestamp": "2025-05-03T14:02:09.403Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 168,
+  "timestamp": "2025-05-03T14:02:09.604Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 250,
+  "timestamp": "2025-05-03T14:14:24.066Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 177,
+  "timestamp": "2025-05-03T14:14:24.293Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 179,
+  "timestamp": "2025-05-03T14:14:24.508Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 171,
+  "timestamp": "2025-05-03T14:14:24.709Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 182,
+  "timestamp": "2025-05-03T14:14:24.922Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 231,
+  "timestamp": "2025-05-03T14:22:15.893Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 182,
+  "timestamp": "2025-05-03T14:22:16.124Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 180,
+  "timestamp": "2025-05-03T14:22:16.335Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 171,
+  "timestamp": "2025-05-03T14:22:16.534Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 168,
+  "timestamp": "2025-05-03T14:22:16.733Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 20,
+  "timestamp": "2025-05-03T15:01:35.819Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 10,
+  "timestamp": "2025-05-03T15:01:35.890Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 6,
+  "timestamp": "2025-05-03T15:01:35.941Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7,
+  "timestamp": "2025-05-03T15:01:35.988Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 5,
+  "timestamp": "2025-05-03T15:01:36.033Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 159,
+  "timestamp": "2025-05-03T15:01:41.656Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 17,
+  "timestamp": "2025-05-03T15:01:41.724Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 17,
+  "timestamp": "2025-05-03T15:01:41.774Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 16,
+  "timestamp": "2025-05-03T15:01:41.827Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 17,
+  "timestamp": "2025-05-03T15:01:41.880Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 390,
+  "timestamp": "2025-05-03T15:09:37.046Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 193,
+  "timestamp": "2025-05-03T15:09:37.287Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 199,
+  "timestamp": "2025-05-03T15:09:37.525Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 207,
+  "timestamp": "2025-05-03T15:09:37.820Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 193,
+  "timestamp": "2025-05-03T15:09:38.051Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 275,
+  "timestamp": "2025-05-03T15:11:01.299Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 192,
+  "timestamp": "2025-05-03T15:11:01.546Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 192,
+  "timestamp": "2025-05-03T15:11:01.779Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 190,
+  "timestamp": "2025-05-03T15:11:02.011Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 195,
+  "timestamp": "2025-05-03T15:11:02.260Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 9162,
+  "timestamp": "2025-05-03T15:15:20.263Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7313,
+  "timestamp": "2025-05-03T15:15:27.641Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 7247,
+  "timestamp": "2025-05-03T15:15:34.965Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7217,
+  "timestamp": "2025-05-03T15:15:42.251Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 7223,
+  "timestamp": "2025-05-03T15:15:49.548Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 8568,
+  "timestamp": "2025-05-03T15:36:19.602Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7366,
+  "timestamp": "2025-05-03T15:36:27.041Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 7303,
+  "timestamp": "2025-05-03T15:36:34.456Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7461,
+  "timestamp": "2025-05-03T15:36:42.031Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 7252,
+  "timestamp": "2025-05-03T15:36:49.361Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 7558,
+  "timestamp": "2025-05-03T15:57:07.016Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7328,
+  "timestamp": "2025-05-03T15:57:14.429Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 7226,
+  "timestamp": "2025-05-03T15:57:21.751Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7250,
+  "timestamp": "2025-05-03T15:57:29.087Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 7335,
+  "timestamp": "2025-05-03T15:57:36.554Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 7492,
+  "timestamp": "2025-05-03T16:17:00.839Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7375,
+  "timestamp": "2025-05-03T16:17:08.292Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 7254,
+  "timestamp": "2025-05-03T16:17:15.650Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7176,
+  "timestamp": "2025-05-03T16:17:22.922Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 7235,
+  "timestamp": "2025-05-03T16:17:30.251Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 54,
+  "timestamp": "2025-05-07T12:46:29.681Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 15,
+  "timestamp": "2025-05-07T12:46:33.185Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 15,
+  "timestamp": "2025-05-07T12:46:36.672Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 9029,
+  "timestamp": "2025-05-07T12:53:00.967Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7100,
+  "timestamp": "2025-05-07T12:53:11.533Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 7124,
+  "timestamp": "2025-05-07T12:53:22.088Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7020,
+  "timestamp": "2025-05-07T12:53:32.583Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 7187,
+  "timestamp": "2025-05-07T12:53:43.181Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 7161,
+  "timestamp": "2025-05-07T13:16:57.863Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 8369,
+  "timestamp": "2025-05-07T13:22:51.229Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7092,
+  "timestamp": "2025-05-07T13:23:01.746Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 7162,
+  "timestamp": "2025-05-07T13:23:12.321Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7010,
+  "timestamp": "2025-05-07T13:23:22.785Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 7021,
+  "timestamp": "2025-05-07T13:23:33.210Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 8299,
+  "timestamp": "2025-05-07T13:25:49.863Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 7173,
+  "timestamp": "2025-05-07T13:39:07.820Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7127,
+  "timestamp": "2025-05-07T13:39:19.227Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 8409,
+  "timestamp": "2025-05-07T13:47:12.243Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7105,
+  "timestamp": "2025-05-07T13:47:23.525Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 7115,
+  "timestamp": "2025-05-07T13:47:34.814Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7190,
+  "timestamp": "2025-05-07T13:47:46.134Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 7024,
+  "timestamp": "2025-05-07T13:47:57.287Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 7264,
+  "timestamp": "2025-05-07T13:49:21.994Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7102,
+  "timestamp": "2025-05-07T13:49:33.221Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 7141,
+  "timestamp": "2025-05-07T13:49:44.599Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7091,
+  "timestamp": "2025-05-07T13:49:55.876Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 7143,
+  "timestamp": "2025-05-07T13:50:07.139Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 8407,
+  "timestamp": "2025-05-07T14:03:52.977Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7100,
+  "timestamp": "2025-05-07T14:04:04.261Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 7265,
+  "timestamp": "2025-05-07T14:04:15.759Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7037,
+  "timestamp": "2025-05-07T14:04:26.957Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 7009,
+  "timestamp": "2025-05-07T14:04:38.124Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 7267,
+  "timestamp": "2025-05-07T14:07:43.361Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7285,
+  "timestamp": "2025-05-07T14:07:54.859Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 7328,
+  "timestamp": "2025-05-07T14:08:06.368Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7559,
+  "timestamp": "2025-05-07T14:08:18.315Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 7305,
+  "timestamp": "2025-05-07T14:08:30.070Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 8518,
+  "timestamp": "2025-05-07T14:21:56.494Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7307,
+  "timestamp": "2025-05-07T14:22:08.001Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 7314,
+  "timestamp": "2025-05-07T14:22:19.662Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7426,
+  "timestamp": "2025-05-07T14:22:31.422Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 7261,
+  "timestamp": "2025-05-07T14:22:42.962Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 7568,
+  "timestamp": "2025-05-07T14:30:20.635Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7256,
+  "timestamp": "2025-05-07T14:30:32.051Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 7358,
+  "timestamp": "2025-05-07T14:30:43.625Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7280,
+  "timestamp": "2025-05-07T14:30:55.056Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 7285,
+  "timestamp": "2025-05-07T14:31:06.640Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 3533,
+  "timestamp": "2025-05-08T08:48:23.426Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 1658,
+  "timestamp": "2025-05-08T08:48:29.324Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 1838,
+  "timestamp": "2025-05-08T08:48:35.338Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 1486,
+  "timestamp": "2025-05-08T08:48:40.953Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 1484,
+  "timestamp": "2025-05-08T08:48:46.573Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 8483,
+  "timestamp": "2025-05-09T10:21:34.880Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 7570,
+  "timestamp": "2025-05-09T10:21:42.569Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 7402,
+  "timestamp": "2025-05-09T10:21:50.096Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 7392,
+  "timestamp": "2025-05-09T10:21:57.620Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 7326,
+  "timestamp": "2025-05-09T10:22:05.053Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 2144,
+  "timestamp": "2025-05-09T10:57:50.007Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 1793,
+  "timestamp": "2025-05-09T10:57:56.757Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 1740,
+  "timestamp": "2025-05-09T10:58:03.433Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 1742,
+  "timestamp": "2025-05-09T10:58:10.040Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 1688,
+  "timestamp": "2025-05-09T10:58:16.587Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 2233,
+  "timestamp": "2025-05-09T11:17:03.447Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 1829,
+  "timestamp": "2025-05-09T11:17:10.212Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 1714,
+  "timestamp": "2025-05-09T11:17:16.779Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 1750,
+  "timestamp": "2025-05-09T11:17:23.405Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 1771,
+  "timestamp": "2025-05-09T11:17:30.034Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 552,
+  "timestamp": "2025-05-09T16:49:05.091Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 566,
+  "timestamp": "2025-05-09T16:49:05.812Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 543,
+  "timestamp": "2025-05-09T16:49:06.444Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 539,
+  "timestamp": "2025-05-09T16:49:07.085Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 533,
+  "timestamp": "2025-05-09T16:49:07.714Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 553,
+  "timestamp": "2025-05-09T16:50:30.255Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 554,
+  "timestamp": "2025-05-09T16:50:30.957Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 545,
+  "timestamp": "2025-05-09T16:50:31.590Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 545,
+  "timestamp": "2025-05-09T16:50:32.230Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 589,
+  "timestamp": "2025-05-09T16:50:32.950Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 558,
+  "timestamp": "2025-05-09T16:54:07.690Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 552,
+  "timestamp": "2025-05-09T16:54:08.355Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 554,
+  "timestamp": "2025-05-09T16:54:08.990Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 531,
+  "timestamp": "2025-05-09T16:54:09.620Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 534,
+  "timestamp": "2025-05-09T16:54:10.238Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 560,
+  "timestamp": "2025-05-09T16:54:34.871Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 544,
+  "timestamp": "2025-05-09T16:54:35.562Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 537,
+  "timestamp": "2025-05-09T16:54:36.191Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 557,
+  "timestamp": "2025-05-09T16:54:36.829Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 549,
+  "timestamp": "2025-05-09T16:54:37.484Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 561,
+  "timestamp": "2025-05-09T16:58:54.325Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 561,
+  "timestamp": "2025-05-09T16:58:55.047Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 558,
+  "timestamp": "2025-05-09T16:58:55.739Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 534,
+  "timestamp": "2025-05-09T16:58:56.369Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 540,
+  "timestamp": "2025-05-09T16:58:57.004Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 557,
+  "timestamp": "2025-05-09T17:14:34.208Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 539,
+  "timestamp": "2025-05-09T17:14:34.934Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 541,
+  "timestamp": "2025-05-09T17:14:35.588Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 538,
+  "timestamp": "2025-05-09T17:14:36.233Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 537,
+  "timestamp": "2025-05-09T17:14:36.864Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 54,
+  "timestamp": "2025-05-09T17:31:46.053Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 30,
+  "timestamp": "2025-05-09T17:31:46.170Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 21,
+  "timestamp": "2025-05-09T17:31:46.254Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 21,
+  "timestamp": "2025-05-09T17:31:46.333Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 22,
+  "timestamp": "2025-05-09T17:31:46.416Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 34,
+  "timestamp": "2025-05-09T17:31:55.774Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 29,
+  "timestamp": "2025-05-09T17:31:55.865Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 22,
+  "timestamp": "2025-05-09T17:31:55.942Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 27,
+  "timestamp": "2025-05-09T17:31:56.027Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 22,
+  "timestamp": "2025-05-09T17:31:56.104Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 33,
+  "timestamp": "2025-05-09T17:32:02.836Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 28,
+  "timestamp": "2025-05-09T17:32:02.922Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 22,
+  "timestamp": "2025-05-09T17:32:02.998Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 22,
+  "timestamp": "2025-05-09T17:32:03.078Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 21,
+  "timestamp": "2025-05-09T17:32:03.156Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 31,
+  "timestamp": "2025-05-09T17:37:37.694Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 26,
+  "timestamp": "2025-05-09T17:37:37.779Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 21,
+  "timestamp": "2025-05-09T17:37:37.855Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 22,
+  "timestamp": "2025-05-09T17:37:37.929Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 19,
+  "timestamp": "2025-05-09T17:37:38.007Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 54,
+  "timestamp": "2025-05-09T17:40:01.700Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 30,
+  "timestamp": "2025-05-09T17:40:01.820Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 22,
+  "timestamp": "2025-05-09T17:40:01.921Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 23,
+  "timestamp": "2025-05-09T17:40:02.008Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 23,
+  "timestamp": "2025-05-09T17:40:02.092Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 24,
+  "timestamp": "2025-05-09T17:40:05.418Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 22,
+  "timestamp": "2025-05-09T17:40:05.499Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 22,
+  "timestamp": "2025-05-09T17:40:05.576Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 28,
+  "timestamp": "2025-05-09T17:40:05.657Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 23,
+  "timestamp": "2025-05-09T17:40:05.738Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 30,
+  "timestamp": "2025-05-09T17:40:12.294Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 30,
+  "timestamp": "2025-05-09T17:40:12.415Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 23,
+  "timestamp": "2025-05-09T17:40:12.498Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 38,
+  "timestamp": "2025-05-09T17:40:12.700Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 30,
+  "timestamp": "2025-05-09T17:40:12.799Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 56,
+  "timestamp": "2025-05-09T17:41:39.598Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 29,
+  "timestamp": "2025-05-09T17:41:39.724Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 23,
+  "timestamp": "2025-05-09T17:41:39.833Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 22,
+  "timestamp": "2025-05-09T17:41:39.926Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 22,
+  "timestamp": "2025-05-09T17:41:40.026Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 2829,
+  "timestamp": "2025-05-09T17:54:08.896Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 1926,
+  "timestamp": "2025-05-09T17:54:10.968Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 1857,
+  "timestamp": "2025-05-09T17:54:12.923Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 1850,
+  "timestamp": "2025-05-09T17:54:14.867Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 1842,
+  "timestamp": "2025-05-09T17:54:16.800Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 1974,
+  "timestamp": "2025-05-09T17:55:25.559Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 1607,
+  "timestamp": "2025-05-09T17:55:27.248Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 1709,
+  "timestamp": "2025-05-09T17:55:29.051Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 1641,
+  "timestamp": "2025-05-09T17:55:30.762Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 1581,
+  "timestamp": "2025-05-09T17:55:32.410Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 2258,
+  "timestamp": "2025-05-09T17:57:00.733Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 1667,
+  "timestamp": "2025-05-09T17:57:02.464Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 1796,
+  "timestamp": "2025-05-09T17:57:04.363Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 1683,
+  "timestamp": "2025-05-09T17:57:06.120Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 1649,
+  "timestamp": "2025-05-09T17:57:07.842Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 1967,
+  "timestamp": "2025-05-09T17:57:39.966Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 1630,
+  "timestamp": "2025-05-09T17:57:41.717Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 1679,
+  "timestamp": "2025-05-09T17:57:43.477Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 1676,
+  "timestamp": "2025-05-09T17:57:45.215Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 1592,
+  "timestamp": "2025-05-09T17:57:46.876Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 1990,
+  "timestamp": "2025-05-09T17:58:19.167Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 1684,
+  "timestamp": "2025-05-09T17:58:20.960Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 1717,
+  "timestamp": "2025-05-09T17:58:22.739Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 1657,
+  "timestamp": "2025-05-09T17:58:24.486Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 1612,
+  "timestamp": "2025-05-09T17:58:26.161Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 443,
+  "timestamp": "2025-05-09T18:01:12.676Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 260,
+  "timestamp": "2025-05-09T18:01:12.998Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 261,
+  "timestamp": "2025-05-09T18:01:13.315Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 260,
+  "timestamp": "2025-05-09T18:01:13.627Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 260,
+  "timestamp": "2025-05-09T18:01:13.931Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 75,
+  "timestamp": "2025-05-09T18:11:21.377Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 35,
+  "timestamp": "2025-05-09T18:11:21.507Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 26,
+  "timestamp": "2025-05-09T18:11:21.615Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 29,
+  "timestamp": "2025-05-09T18:11:21.707Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 26,
+  "timestamp": "2025-05-09T18:11:21.802Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 38,
+  "timestamp": "2025-05-09T18:11:47.706Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 34,
+  "timestamp": "2025-05-09T18:11:47.797Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 29,
+  "timestamp": "2025-05-09T18:11:47.879Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 27,
+  "timestamp": "2025-05-09T18:11:47.956Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 37,
+  "timestamp": "2025-05-09T18:11:48.046Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 75,
+  "timestamp": "2025-05-09T18:18:08.557Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 39,
+  "timestamp": "2025-05-09T18:18:08.689Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 30,
+  "timestamp": "2025-05-09T18:18:08.789Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 26,
+  "timestamp": "2025-05-09T18:18:08.883Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 30,
+  "timestamp": "2025-05-09T18:18:08.980Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 817,
+  "timestamp": "2025-05-09T18:44:56.110Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 701,
+  "timestamp": "2025-05-09T18:45:05.088Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 684,
+  "timestamp": "2025-05-09T18:45:14.127Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 682,
+  "timestamp": "2025-05-09T18:45:23.116Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 693,
+  "timestamp": "2025-05-09T18:45:32.017Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 798,
+  "timestamp": "2025-05-09T18:50:57.740Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 702,
+  "timestamp": "2025-05-09T18:51:06.680Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 679,
+  "timestamp": "2025-05-09T18:51:15.759Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 691,
+  "timestamp": "2025-05-09T18:51:24.730Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 678,
+  "timestamp": "2025-05-09T18:51:33.622Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 6360,
+  "timestamp": "2025-05-09T18:56:01.972Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 5781,
+  "timestamp": "2025-05-09T18:56:15.986Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 5582,
+  "timestamp": "2025-05-09T18:56:29.864Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 5579,
+  "timestamp": "2025-05-09T18:56:43.678Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 5603,
+  "timestamp": "2025-05-09T18:56:57.472Z"
+}{
+  "test": "Successfully creating an assignment with required fields",
+  "duration": 7110,
+  "timestamp": "2025-05-09T19:46:07.798Z"
+}{
+  "test": "Attempting to create an assignment without required fields",
+  "duration": 5929,
+  "timestamp": "2025-05-09T19:46:22.455Z"
+}{
+  "test": "Creating an assignment with file attachments",
+  "duration": 5890,
+  "timestamp": "2025-05-09T19:46:36.577Z"
+}{
+  "test": "Creating an assignment with a past due date",
+  "duration": 6130,
+  "timestamp": "2025-05-09T19:46:50.878Z"
+}{
+  "test": "Creating an assignment with a very long description",
+  "duration": 5856,
+  "timestamp": "2025-05-09T19:47:04.925Z"
+}

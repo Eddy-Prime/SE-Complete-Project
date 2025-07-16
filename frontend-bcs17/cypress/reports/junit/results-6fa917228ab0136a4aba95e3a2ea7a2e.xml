@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.458" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2025-05-03T14:14:32" tests="0" file="cypress/e2e/features/assignment_grading.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Assignment Grading and Feedback" timestamp="2025-05-03T14:14:32" tests="6" time="1.427" failures="6">
+    <testcase name="Assignment Grading and Feedback Viewing all submissions for an assignment" time="0.000" classname="Viewing all submissions for an assignment">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_grading/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_grading.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_grading/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_grading.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:8000/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Grading a submission with full score" time="0.000" classname="Grading a submission with full score">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_grading/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_grading.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_grading/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_grading.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:8000/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Grading a submission with partial score" time="0.000" classname="Grading a submission with partial score">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_grading/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_grading.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_grading/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_grading.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:8000/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Grading using criteria breakdown" time="0.000" classname="Grading using criteria breakdown">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_grading/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_grading.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_grading/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_grading.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:8000/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Updating a grade after review" time="0.000" classname="Updating a grade after review">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_grading/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_grading.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_grading/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_grading.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:8000/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10155:27)]]></failure>
+    </testcase>
+    <testcase name="Assignment Grading and Feedback Providing feedback without a grade" time="0.000" classname="Providing feedback without a grade">
+      <failure message="
+Step implementation missing for &quot;Professor Thompson is logged in&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_grading/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_grading.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;Professor Thompson is logged in&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "Professor Thompson is logged in".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - /[filepath]/**/*.{js,mjs,ts,tsx}
+  - /[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - ../../../../../../../cypress/e2e/features/assignment_grading/**/*.{js,mjs,ts,tsx}
+  - ../../../../../../../cypress/e2e/features/assignment_grading.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("Professor Thompson is logged in", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:8000/__cypress/tests?p=cypress/e2e/features/assignment_grading.feature:10155:27)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
